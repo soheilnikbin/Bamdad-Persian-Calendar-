@@ -1,4 +1,4 @@
-Bamdad Life Manager Android App [![Build Status](https://travis-ci.org/ebraminio/DroidPersianCalendar.svg?branch=master)](https://travis-ci.org/ebraminio/DroidPersianCalendar)
+Bamdad Life Manager Android App 
 =============================
 <div lang="fa" dir="rtl">Bamdad Life Manager Android App ( برنامه اندروید مدیریت زندگی‌ )<br /></div>
 
@@ -19,6 +19,12 @@ Download
     <li> <a href="http://iranapps.ir/app/com.vmagnify.persiancalendar" >Iran Apps</a> </li>
     <li> <a href="https://myket.ir/app/com.vmagnify.persiancalendar/?lang=fa" >Myket</a> </li>
 </ul>
+
+## Installation:
+
+This project contain Google Firebase System after run it in Android Studio, go to this [Link](https://console.firebase.google.com/) To create your own Firebase project and add google-services.json into your main package.
+
+You Are Ready to go ;)
 
 License
 -----------------------------
