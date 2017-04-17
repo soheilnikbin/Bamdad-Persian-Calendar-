@@ -1,4 +1,4 @@
-Bamdad Life Manager Android App 
+Bamdad is an open source application over hundred thousand Active user around the world.
 =============================
 <div lang="fa" dir="rtl">Bamdad Life Manager Android App ( برنامه اندروید مدیریت زندگی‌ )<br /></div>
 
