@@ -1,7 +1,16 @@
 Bamdad Life Manager Android App [![Build Status](https://travis-ci.org/ebraminio/DroidPersianCalendar.svg?branch=master)](https://travis-ci.org/ebraminio/DroidPersianCalendar)
 =============================
 <div lang="fa" dir="rtl">Bamdad Life Manager Android App ( برنامه اندروید مدیریت زندگی‌ )<br /></div>
------------------------------
+
+![](https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic1.jpg)
+![](https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic2.jpg)
+![](https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic3.jpg)
+![](https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic4.jpg)
+![](https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic5.jpg)
+![](https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic6.jpg)
+![](https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic7.jpg)
+![](https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic8.jpg)
+
 
 Download
 -----------------------------
