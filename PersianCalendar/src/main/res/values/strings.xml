@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">بامداد</string>
+    <string name="widget_name">بامداد</string>
+    <string name="widget_mini_name">بامداد (کوچک)</string>
+    <string name="latitude">عرض جغرافیایی</string>
+    <string name="longitude">طول جغرافیایی</string>
+    <string name="settings">تنظیمات</string>
+    <string name="exit">خروج</string>
+    <string name="enable_persian_digits">نمایش عددها به فارسی</string>
+    <string name="persian_digits">عددهای فارسی</string>
+    <string name="showing_clock_on_widget">نمایش ساعت در ابزارک</string>
+    <string name="clock_on_widget">ساعت در ابزارک</string>
+    <string name="showing_clock_in_24"> نمایش ساعت به صورت ۲۴ تایی</string>
+    <string name="clock_in_24">۲۴ ساعته</string>
+    <string name="about">درباره</string>
+    <string name="gpl_logo">نشان پروانهٔ جامع همگانی گنو</string>
+    <string name="widget_text_colors">رنگ متن ابزارک</string>
+    <string name="clock">ساعت</string>
+    <string name="date">تاریخ</string>
+    <string name="date_converter">تبدیل تاریخ</string>
+    <string name="logo">نشان</string>
+    <string name="dari_months">ماه‌های دری</string>
+    <string name="enable_dari">فعال کردن ماه‌های دری</string>
+    <string name="widget_notification_dashclock">ابزارک، نوار آگاهی و دش‌کلاک</string>
+    <string name="general">عمومی</string>
+    <string name="widget_text_color">رنگ نوشته‌های ابزارک</string>
+    <string name="select_widgets_text_color">انتخاب رنگ دل‌خواه برای نوشته‌های ابزارک</string>
+    <string name="pray_times_calculation_setting">تنظیمات محاسبهٔ اوقات شرعی و قبله‌نما</string>
+    <string name="notify_date">فعال کردن آگاهی</string>
+    <string name="enable_notify">آگاهی همیشگی از تاریخ‌ها، اعمال غیرفعال‌سازی آن نیاز به خاموش و روشن کردن دستگاه دارد</string>
+    <string name="select_skin">انتخاب پوسته</string>
+    <string name="skin">پوسته</string>
+    <string name="pray_methods">شیوه‌های محاسبه</string>
+    <string name="pray_methods_calculation">شیوه‌های محاسبهٔ اوقات شرعی</string>
+    <string name="altitude">ارتفاع</string>
+    <string name="altitude_praytime">به متر (اختیاری)</string>
+    <string name="gps_location">دریافت مختصات از جی‌پی‌اس یا شبکه</string>
+    <string name="gps_location_help">اگر از این طریق ممکن باشد، به سایر تنظیمات این بخش نیاز نیست</string>
+    <string name="location">موقعیت</string>
+    <string name="location_help">اگر در فهرست نبود، مختصات را وارد کنید</string>
+    <string name="showing_iran_time">نمایش ابزارک‌ها، نوار آگاهی و برنامه به وقت ایران در همه‌جا</string>
+    <string name="iran_time">وقت ایران</string>
+    <string name="qibla_compass">قطب‌نما/قبله‌نما</string>
+    <string name="compass">قطب‌نما</string>
+    <string name="compass_not_found">حسگر قطب‌نما پیدا نشد</string>
+
+    <string name="month_names">نام ماه‌ها</string>
+    <string name="calendar_font">قلم تقویم</string>
+    <string name="application_language">زبان برنامه</string>
+    <string name="language">زبان</string>
+    <string name="calendar_language">زبان تقویم</string>
+    <string name="calendar_language_summary">زبانی که ماه‌ها و روزها به آن نمایش داده می‌شوند</string>
+    <string name="version">نگارش</string>
+    <string name="calendar_font_summary">تغییر قلم تقویم</string>
+    <string name="athan">اذان</string>
+    <string name="athan_alarm_summary">برای این نمازها اذان گفته شود</string>
+    <string name="athan_alarm">اذان‌ها</string>
+    <string name="athan_sound">صدای اذان</string>
+    <string name="match_system">تطبیق با سامانه</string>
+    <string name="athan_volume_summary">تنظیم حجم صدای اذان</string>
+    <string name="athan_volume">حجم صدا</string>
+    <string name="athan_singer_summary">با کلیک کردن بر روی این گزینه صدای موذن را انتخاب کنید.</string>
+    <string name="athan_singer">صدای موذن</string>
+    <string name="tap_to_stop_athan">برای توقف اذان ضربه بزنید</string>
+    <string name="playing_athan">در حال پخش اذان</string>
+    <string name="athan_disabled_summary">برای فعال کردن تنظیمات اذان، مکانی را از فهرست برگزیده، یا مشخصات موقعیتتان را وارد کنید</string>
+    <string name="athan_gap">فاصلهٔ بین اذان واقعی و اذان برنامه</string>
+    <string name="athan_gap_summary">چند دقیقه پیش از اذان، هشدار به صدا در آورده شود</string>
+    <string name="closeDrawer">بستن</string>
+    <string name="openDrawer">گشودن</string>
+    <string name="azan1">اذان صبح</string>
+    <string name="azan2">اذان ظهر</string>
+    <string name="azan3">عصر</string>
+    <string name="azan4">اذان مغرب</string>
+    <string name="azan5">عشاء</string>
+    <string name="aftab1">طلوع آفتاب</string>
+    <string name="aftab2">غروب آفتاب</string>
+    <string name="aftab3">نیمه‌شب شرعی</string>
+    <string name="owghat">اوقات شرعی</string>
+    <string name="events">رویداد‌ها</string>
+    <string name="today">امروز</string>
+    <string name="select_type_date">گزینش گونهٔ تاریخ</string>
+    <string name="year">سال</string>
+    <string name="mount">ماه</string>
+    <string name="day">روز</string>
+    <string name="select_year">گزینش سال</string>
+    <string name="select_mount">گزینش ماه</string>
+    <string name="select_day">گزینش روز</string>
+    <string name="date_exception">تاریخ وارد شده اشتباه است!</string>
+    <string name="in_city_time">به افق</string>
+    <string name="islamic_offset">تنظیم تقویم اسلامی</string>
+    <string name="islamic_offset_summary">بازگشت برای اصلاح تقویم</string>
+
+    <string-array name="calendar_type">
+        <item>هجری شمسی</item>
+        <item>هجری قمری</item>
+        <item>میلادی</item>
+    </string-array>
+
+    <string name="date_copied_clipboard">به حافظه رونوشت شد</string>
+    <string name="stop">توقف</string>
+    <string name="goto_date">برو به تاریخ</string>
+    <string name="select">انتخاب</string>
+    <string name="pleasewaitgps">کمی درنگ کنید… اگر پس از یک دقیقه نتیجه‌ای حاصل نشد احتمالاً باید گزینه‌های دیگر را بیازمایید</string>
+    s
+
+    <string name="moazen_title">انتخاب صدای موذن</string>
+
+    <string name="tornado" translatable="false">&#xf021;</string>
+    <string name="tropical_storm" translatable="false">&#xf021;</string>
+    <string name="hurricane" translatable="false">&#xf021;</string>
+    <string name="severe_thunderstorms" translatable="false">&#xf019;</string>
+    <string name="mixed_rain_and_snow" translatable="false">&#xf019;</string>
+    <string name="mixed_rain_and_sleet" translatable="false">&#xf019;</string>
+    <string name="mixed_snow_and_sleet" translatable="false">&#xf019;</string>
+    <string name="freezing_drizzle" translatable="false">&#xf019;</string>
+    <string name="drizzle" translatable="false">&#xf019;</string>
+    <string name="freezing_rain" translatable="false">&#xf019;</string>
+    <string name="showers" translatable="false">&#xf019;</string>
+    <string name="snow_flurries" translatable="false">&#xf01b;</string>
+    <string name="light_snow_showers" translatable="false">&#xf01b;</string>
+    <string name="blowing_snow" translatable="false">&#xf01b;</string>
+    <string name="snow" translatable="false">&#xf01b;</string>
+    <string name="hail" translatable="false">&#xf019;</string>
+    <string name="sleet" translatable="false">&#xf019;</string>
+    <string name="dust" translatable="false">&#xf002;</string>
+    <string name="foggy" translatable="false">&#xf014;</string>
+    <string name="haze" translatable="false">&#xf014;</string>
+    <string name="smoky" translatable="false">&#xf014;</string>
+    <string name="blustery" translatable="false">&#xf021;</string>
+    <string name="windy" translatable="false">&#xf021;</string>
+    <string name="cold" translatable="false">&#xf021;</string>
+    <string name="cloudy" translatable="false">&#xf013;</string>
+    <string name="mostly_cloudy_night" translatable="false">&#xf031;</string>
+    <string name="mostly_cloudy_day" translatable="false">&#xf002;</string>
+    <string name="partly_cloudy_night" translatable="false">&#xf031;</string>
+    <string name="partly_cloudy_day" translatable="false">&#xf002;</string>
+    <string name="clear_night" translatable="false">&#xf02e;</string>
+    <string name="sunny" translatable="false">&#xf00d;</string>
+    <string name="fair_night" translatable="false">&#xf031;</string>
+    <string name="fair_day" translatable="false">&#xf00c;</string>
+    <string name="mixed_rain_and_hail" translatable="false">&#xf019;</string>
+    <string name="hot" translatable="false">&#xf00d;</string>
+    <string name="isolated_thunderstorms" translatable="false">&#xf019;</string>
+    <string name="scattered_thunderstorms" translatable="false">&#xf019;</string>
+    <string name="scattered_showers" translatable="false">&#xf019;</string>
+    <string name="heavy_snow" translatable="false">&#xf01b;</string>
+    <string name="scattered_snow_showers" translatable="false">&#xf01b;</string>
+    <string name="partly_cloudy" translatable="false">&#xf00c;</string>
+    <string name="thundershowers" translatable="false">&#xf019;</string>
+    <string name="snow_showers" translatable="false">&#xf00c;</string>
+    <string name="isolated_thundershowers" translatable="false">&#xf019;</string>
+    <string name="not_available" translatable="false">&#xf00c;</string>
+
+    ///////////////////////// recurrence
+    <string name="preference_notification_category" translatable="false">تنظیمات یادآور</string>
+    <string name="checkbox_vibrate" translatable="false">ویبره</string>
+    <string name="checkbox_sound" translatable="false">انتخاب صدا</string>
+    <string name="checkbox_LED" translatable="false">چراغ گوشی</string>
+    <string name="checkbox_ongoing" translatable="false">نوتیفیکیشن چسبنده</string>
+    <string name="checkbox_ongoing_dis" translatable="false">در صورتی که به عنوان انجام شده نشانه گذاری نشود</string>
+    <string name="snooze" translatable="false">صبر</string>
+    <string name="snooze_detail" translatable="false">اعلام پیغام کمی بعد از رد کردن آن</string>
+    <string name="snooze_length" translatable="false">میزان صبر</string>
+    <string name="minute" translatable="false">دقیقه</string>
+    <string name="minutes" translatable="false">دقیقه</string>
+    <string name="mark_as_done" translatable="false">انجام شد</string>
+    <string name="mark_as_done_detail" translatable="false">اضافه کردن گزینه ی انجام شد به نوتیفیکیشن</string>
+    <string name="nagging_reminder" translatable="false">یاد آواره سمج</string>
+    <string name="nagging_detail" translatable="false">تا زمانی که گزینه ی انجام شد کلیک نشود به شما یاد آوری میکند</string>
+    <string name="nagging_interval" translatable="false">یاد آواره سمج</string>
+    <string name="action_settings" translatable="false">تنظیمات</string>
+    <string name="action_delete" translatable="false">حذف کردن</string>
+    <string name="action_edit" translatable="false">ویرایش</string>
+    <string name="action_about" translatable="false">About</string>
+    <string name="action_show_now" translatable="false">الان نشون بده</string>
+    <string name="action_mark_as_done" translatable="false">انجام شد</string>
+    <string name="action_share" translatable="false">اشتراک گذاری</string>
+    <string name="delete_confirmation" translatable="false">آیا از پاک کردن مطمئن هستید ؟!</string>
+    <string name="yes" translatable="false">بله</string>
+    <string name="no" translatable="false">خیر</string>
+    <string name="ok" translatable="false">باشه</string>
+    <string name="title" translatable="false">عنوان</string>
+    <string name="save_menu" translatable="false">ذخیره</string>
+    <string name="time_now" translatable="false">الان</string>
+    <string name="date_today" translatable="false">امروز</string>
+    <string name="times_shown" translatable="false"> %1$d از %2$d یاد آوری شد</string>
+    <string name="times_shown_edit" translatable="false">نشان داده شد %1$d از</string>
+    <string name="forever" translatable="false">به طور مداوم</string>
+    <string name="no_repeat" translatable="false">تکرار نشود</string>
+    <string name="times" translatable="false">بار</string>
+    <string name="repeat_notification" translatable="false">میزان تکرار : </string>
+    <string name="content_hint" translatable="false">توضیحات</string>
+    <string name="select_icon" translatable="false">انتخاب یک آیکون</string>
+    <string name="default_icon" translatable="false">آیکون پیش فرض</string>
+    <string name="custom_icon" translatable="false">انتخاب آیکون</string>
+    <string name="select_colour" translatable="false">انتخاب رنگ</string>
+    <string name="default_colour" translatable="false">انتخاب رنگ</string>
+    <string name="repeats_on" translatable="false">تکرار در:</string>
+    <string name="repeat_every" translatable="false">تکرار هر</string>
+    <string name="repeats_every" translatable="false">هر تکرار: %1$d %2$s</string>
+    <string name="no_active" translatable="false">نوتیفیکیشن فعال نیست</string>
+    <string name="no_inactive" translatable="false">نوتیفیکیشن فعال نیست</string>
+    <string name="toast_past_date" translatable="false">روز های گذشته قابل یاداوری نیستند</string>
+    <string name="toast_higher_number" translatable="false">اعداد یاداوری باید بیشتر باشد</string>
+    <string name="toast_title_empty" translatable="false">عنوان نمی تواند خالی باشد</string>
+    <string name="toast_mark_as_done" translatable="false">نشانه گذاری یادآور بعدی به عنوان انجام شده</string>
+    <string name="add_reminder" translatable="false">اضافه کردن یادآور</string>
+    <string name="libraries" translatable="false">Libraries</string>
+    <string name="rate_app" translatable="false">Rate app</string>
+    <string name="contact" translatable="false">Contact</string>
+    <string name="thanks_to" translatable="false">Thanks to</string>
+    <string name="translator" translatable="false">Translator</string>
+    <string name="send_email" translatable="false">Send email</string>
+    <string-array name="repeat_array" translatable="false">
+        <item>تکرار نشود</item>
+        <item>هر ساعت</item>
+        <item>هر روز</item>
+        <item>هر هفته</item>
+        <item>هر ماه</item>
+        <item>هر سال</item>
+        <item>روز خاصی از هفته</item>
+        <item>دستی</item>
+    </string-array>
+
+
+    //////PEP
+    <string name="copyleft">Copyleft Feio 2015</string>
+    <string name="dev_site">http://www.vmagnify.com</string>
+    <string name="dev_googleplus">https://plus.google.com/102629628248642947234/posts</string>
+    <string name="dev_github">https://github.com/federicoiosue</string>
+    <string name="beta_link">http://goo.gl/zBZQLr</string>
+    <string name="gplus_community">https://goo.gl/eF6qqF</string>
+    <string name="paypal">Paypal</string>
+    <string name="paypal_url">http://goo.gl/ZXgBhz</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="bitcoin_url">http://goo.gl/I6Xboe</string>
+    <string name="help_online_url">http://goo.gl/Q0aBoS</string>
+
+
+    <!-- Activities -->
+    <string name="title_item_list">یادداشت</string>
+    <string name="add_note">اضافه کردن یادداشت</string>
+    <string name="title_activity_list">یادداشت</string>
+    <string name="search">جستجو</string>
+    <string name="search_hint">جستجو در یادداشت</string>
+    <string name="content">محتوا</string>
+    <string name="save">ذخیره کردن</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="undo">باز گردان</string>
+    <string name="trash">سطل زباله</string>
+    <string name="trashed">دور انداخته شد</string>
+    <string name="note_trashed">یادداشت وارد زباله شد</string>
+    <string name="note_untrashed">یادداشت از سطل زباله بازیابی شد</string>
+    <string name="untrash">بازیابی شد</string>
+    <string name="delete">حذف کردن</string>
+    <string name="note_deleted">یادداشت به طور دائم حذف شد</string>
+    <string name="archive">بایگانی</string>
+    <string name="unarchive">از بایگانی بازیابی شد</string>
+    <string name="creation">ایجاد شده:</string>
+    <string name="last_update">به روز رسانی:</string>
+    <string name="delete_note_confirmation">آیا از پاک کردن یادداشت مطمئن هستید ?!</string>
+    <string name="confirm">تایید</string>
+    <string name="cancel">لغو کردن</string>
+    <string name="note_updated">یادداشت بروز رسانی شد</string>
+    <string name="empty_note_not_saved">یادداشت خالی قابل ذخیره نیست</string>
+    <string name="empty_note_not_shared">یادداشت خالی قابل اشتراک نیست</string>
+    <string name="note_archived">یادداشت بایگانی شد</string>
+    <string name="note_unarchived">یادداشت از بایگانی بازیابی شد</string>
+    <string name="note">یادداشت</string>
+    <string name="share_message_chooser">اشتراک گذاشتن با :</string>
+    <string name="shared_content_sign">\n【یادداشت】</string>
+    <string name="sort">مرتب سازی</string>
+    <string name="select_sorting_column">مرتب سازی بر اساس</string>
+    <string name="tap_to_undo">جهت بازگردانی کلیک کن</string>
+    <string name="alarm_set_on">یادآوری برای</string>
+    <string name="starting_from">شروع از</string>
+    <string name="at_time">در</string>
+    <string name="discard_changes">لغو تغییرات</string>
+    <string name="attachment">ضمیمه</string>
+    <string name="camera">دوربین</string>
+    <string name="delete_selected_image">حذف پیوست انتخاب شده؟</string>
+    <string name="gallery">آلبوم عکس</string>
+    <string name="pushbullet">Pushbullet</string>
+    <string name="remove_location">حذف موقعیت مکانی؟</string>
+    <string name="remove_reminder">حذف یادآوری؟</string>
+    <string name="location_not_found">محل سکونت یافت نشد</string>
+    <string name="record">رکورد</string>
+    <string name="no_app_to_handle_intent">نرم افزار جهت باز کردن فایل پیدا نشد</string>
+    <string name="storage_not_available">ذخیره سازی در دسترس نیست</string>
+    <string name="video">ویدیو</string>
+    <string name="feature_not_available_on_this_device">متاسفانه این ویژگی در دستگاه شما قابل اجرا نیست</string>
+    <string name="error_occurred_deleting_note">یادداشت قابل پاک شدن نیست</string>
+    <string name="no_backups_available">بک آپ در دسترس نیست</string>
+    <string name="data_export_message">وارد کردن نام بک آپ</string>
+    <string name="data_import_message">کلیک -&gt; بازگرداندن \ طولانی کلیک کنید -&gt; حذف کردن</string>
+    <string name="data_import_message_warning">هشدار : تمام اطلاعات جایگزین می شوند</string>
+    <string name="data_export_completed">پشتیبان گیری داده ها تکمیل شد</string>
+    <string name="data_import_completed">اطلاعات بازگردانی شد</string>
+    <string name="click_to_refresh_application">جهت رفرش کردن کلیک کنید</string>
+    <string name="backup_existing">پشتیبان گیری در حال حاضر وجود دارد.نام فایل را عوض کنید یا فایل قبلی پاک خواهد شد.</string>
+    <string name="tag">برچسب</string>
+    <string name="tags">برچسب ها</string>
+    <string name="add_tag">افزودن برچسب</string>
+    <string name="select_tags">انتخاب برچسب ها</string>
+    <string name="categories">دسته بندی ها</string>
+    <string name="edit_tag">ویرایش دسته بندی</string>
+    <string name="add_category">اضافه کردن دسته بندی</string>
+    <string name="category_title">عنوان</string>
+    <string name="category_description">توصیف</string>
+    <string name="category_color">رنگ</string>
+    <string name="category_saved">دسته ذخیره شد</string>
+    <string name="category_deleted">دسته بندی حذف شد</string>
+    <string name="category_missing_title">عنوانه دسته بندی فراموش شد</string>
+    <string name="delete_this_category">پاک کردن این دسته بندی</string>
+    <string name="category">دسته بندی</string>
+    <string name="categorize_as">دسته بندی به عنوانه</string>
+    <string name="title_activity_category">ویرایش دسته بندی</string>
+    <string name="delete_unused_category_confirmation">می خواهید این دسته بندی پاک شود?!</string>
+    <string name="delete_category_confirmation">This category is used by $1$ note/s.\nConfirm notes un-categorization and category deletion?</string>
+    <string name="discard">دور انداختن</string>
+    <string name="remove_category">حذف دسته</string>
+    <string name="no_tags_created">هیچ برچسبی ثبت نشده</string>
+    <string name="no_categories_created">هیچ دسته بندی ثبت نشده</string>
+    <string name="notes_category_removed">دسته بندی از یادداشت حذف شد</string>
+    <string name="notes_categorized_as">یادداشت دسته بندی شده به عنوانه</string>
+    <string name="insert_security_password">قرار دادن رمز عبور</string>
+    <string name="lock">قفل کردن</string>
+    <string name="save_note_to_lock_it">Sیادداشت را ذخیره کنید تا قفل شود</string>
+    <string name="save_note_to_unlock_it">یادداشت را ذخیره کنید تا قفل باز شود</string>
+    <string name="unlock">باز کردن قفل</string>
+    <string name="title_activity_password">ویرایش رمز عبور</string>
+    <string name="title_activity_about">اطلاعات</string>
+    <string name="deleted">پاک شد</string>
+    <string name="no_items_in_list">چیزی ثبت نشده</string>
+    <string name="checklist_on">فعال کردن چک لیست</string>
+    <string name="checklist_off">غیر فعال کردن چک لیست</string>
+    <string name="checklist_item_hint">گزینه جدید</string>
+    <string name="remove_checklist">حذف چک لیست?</string>
+    <string name="checklist_keep_checked">نگه داشتن آیتم هایی که قبلا علامت دار شدن</string>
+    <string name="checklist_keep_symbols">نگه داشتن آیتم های علامت دار</string>
+    <string name="sketch">طراحی</string>
+    <string name="crash_dialog_text"> </string>
+    <string name="crash_dialog_comment_prompt">Insert comment here (optional):</string>
+    <string name="crash_toast">نرم‌افزار با مشکل مواجه شده به زودی برسی‌ و برطرف خواهد شد.</string>
+
+    <string name="title_activity_sketch">طراحی</string>
+    <string name="redo">ازنو</string>
+    <string name="colors">رنگها</string>
+    <string name="stroke">اندازه قلم</string>
+    <string name="erase_sketch">پاک کردن طراحی ?</string>
+    <string name="no_reminder_set">یاداوری ثبت نشد.</string>
+    <string name="saturation">اشباع رنگ</string>
+    <string name="opacity">کدری رنگ</string>
+    <string name="dismiss">دور انداختن</string>
+    <string name="error_importing_some_attachments">خطا در فایل پیوست</string>
+    <string name="error_saving_attachments">خطا در ذخیره پیوستها</string>
+    <string name="proceed">ادامه</string>
+    <string name="contracted_view">کوچک کردن کارت</string>
+    <string name="expanded_view">بزرگ کردن کارت</string>
+    <string name="add_shortcut">میانبر در صفحه</string>
+    <string name="shortcut_added">میانبر در صفحه گوشی ایجادشد</string>
+    <string name="shortcut_note_deleted">میانبر برای دسترسی به یادداشت حذف شد</string>
+    <string name="widget_simple_description">ویجت ساده با دکمه</string>
+    <string name="widget_list_description">اسکرول لیست ویجت با دکمه</string>
+    <string name="notes">یادداشت</string>
+    <string name="show_thumbnails">نمایش فایل پیوست به عنوان ریز عکسها</string>
+    <string name="choose_action">عمل مورد نظر را انتخاب کنید</string>
+    <string name="edit">ویرایش</string>
+    <string name="reminders">یادآور</string>
+    <string name="not_expired">منقضی نشده</string>
+    <string name="expired">منقضی شده</string>
+    <string name="tomorrow">فردا</string>
+    <string name="open">باز کن</string>
+    <string name="copy">کپی</string>
+    <string name="no_application_can_perform_this_action">راهی برای این عمل یافت نشود</string>
+    <string name="eraser">پاک کن</string>
+    <string name="image">تصویر</string>
+    <string name="error">خطا</string>
+    <string name="archived">آرشیو</string>
+    <string name="files">فایل ها</string>
+    <string name="merge">ادغام</string>
+    <string name="delete_merged">پاک کردن نسخه اصلی بعد از ادغام?</string>
+    <string name="not_set">تنظیم نشده</string>
+    <string name="empty_trash">خالی کردن سطل زباله</string>
+    <string name="empty_trash_confirmation">تأیید حذف تمام یادداشت های سطل آشغال؟</string>
+    <string name="help">کمک</string>
+    <string name="online_manual">کتابچه راهنمای کاربر آنلاین</string>
+    <string name="tags_added">برچسب اضافه شد</string>
+    <string name="working">مشغول به کار...</string>
+    <string name="imported">وارد کردن</string>
+    <string name="synchronize">همگام سازی</string>
+    <string name="extracted">استخراج</string>
+    <string name="select_all">انتخاب همه</string>
+    <string name="search_location">جستجو محل</string>
+    <string name="use_current_location">استفاده از مکان فعلی</string>
+    <string name="filter">صافی</string>
+    <string name="remove_filter">حذف فیلتر</string>
+
+    <!-- Settings -->
+    <string name="dashclock_description">نمایش برخی از آمار انقضا و یادآوری از یادداشت ها</string>
+    <string name="settings_about">اطلاعات</string>
+    <string name="settings_category_other">دیگر</string>
+    <string name="settings_reset_all_data">پاک کردن تمام داده ها</string>
+    <string name="reset_all_data_confirmation">پاک کردن تمام داده ها برنامه ها؟ (پشتیبان گیری حفظ خواهد شد)</string>
+    <string name="settings_screen_sync_import_export">همگام سازی و پشتیبان گیری</string>
+    <string name="settings_export">پشتیبان گیری</string>
+    <string name="settings_sync_import_export">همگام سازی و پشتیبان گیری</string>
+    <string name="settings_import">بازیابی یا حذف پشتیبان گیری</string>
+    <string name="settings_import_from_springpad">وارد کردن یادداشت ها از Springpad</string>
+    <string name="settings_import_from_springpad_summary">Springpad خود را انتخاب کنید و مطمئن باشد که به اینترنت متصل هستید</string>
+    <string name="settings_sync_drive">همگام سازی با گوگل درایو</string>
+    <string name="settings_sync_drive_summary">ثبت نام برنامه برای همگام سازی داده در سرویس ذخیره سازی گوگل درایو</string>
+    <string name="export_success">فایل ها با موفقیت خروجی گرفته شدن</string>
+    <string name="export_fail">خطا در خروجی گرفتن</string>
+    <string name="import_success">فایل با موفقیت وارد شد</string>
+    <string name="import_fail">خطا در وارد کردن فایل</string>
+    <string name="file_not_exists">فایل ورودی وجود ندارد</string>
+    <string name="import_warning">اطلاعات وارد شده می تواند یادداشت های فعلی بازنویسی کند. ایا میخواهید ادامه دهید؟</string>
+    <string name="export_warning">فایل خروجی جایگزین فایل قبلی می شود٬ آیا میخواهید ادامه دهید ؟!</string>
+    <string name="settings_category_gestures">حرکت</string>
+    <string name="settings_enable_swype">فعال کردن حرکت</string>
+    <string name="settings_screen_interface">رابط کاربری</string>
+    <string name="settings_enable_animations">انیمیشن ها</string>
+    <string name="settings_screen_backup">پشتیبان گیری</string>
+    <string name="settings_screen_notifications">نوتیفیکیشن</string>
+    <string name="settings_enable_vibration">ویبره</string>
+    <string name="settings_screen_navigation">نویگیشن</string>
+    <string name="settings_changelog">تغییرات</string>
+    <string name="settings_enable_editor_links">تشخیص لینک</string>
+    <string name="settings_max_video_size">فایل پیوست تصویری</string>
+    <string name="settings_screen_data">داده ها</string>
+    <string name="settings_backup">پشتیبان گیری</string>
+    <string name="settings_password">کلمه عبور</string>
+    <string name="settings_password_access">درخواست کلمه ی عبور در دسترسی</string>
+    <string name="settings_password_instructions">Password ensures that notes won\'t be viewed or modified by other persons.\n\nWhen setting a new password, the previous one will be requested.</string>
+    <string name="settings_password_not_matching">رمز عبور اشتباه است و یا گم شده</string>
+    <string name="insert_new_password">قرار دادن یک رمز عبور جدید</string>
+    <string name="confirm_new_password">تأیید رمز عبور جدید</string>
+    <string name="password_successfully_changed">رمز عبور با موفقیت تغییر یافت</string>
+    <string name="password_successfully_removed">رمز عبور با موفقیت حذف شد</string>
+    <string name="wrong_password">رمز اشتباه</string>
+    <string name="empty_password">رمز عبور خالی است</string>
+    <string name="agree_unlocking_all_notes">حذف رمز عبور و باز کردن تمام یادداشت قفل شده؟</string>
+    <string name="settings_enable_tag_marker">نشانگر دسته بندی</string>
+    <string name="settings_backup_summary">وارد کردن یا خروجی گرفتن داده ها</string>
+    <string name="settings_max_video_size_summary">حداکثر اندازه مجاز در قالب مگابایت</string>
+    <string name="settings_password_summary">ویرایش رمز عبور امنیتی</string>
+    <string name="settings_enable_animations_summary">فعال / غیر فعال کردن انیمیشن در لیست یادداشت ها</string>
+    <string name="settings_enable_tag_marker_summary">نمایش / مخفی کردن نشانگر های رنگی برای دسته بندی</string>
+    <string name="settings_enable_editor_links_summary">قابل کلیک شدن لینک ها</string>
+    <string name="confirm_removing_backup">حذف پشتیبان گیری؟</string>
+    <string name="confirm_restoring_backup">بازگردانی از پشتیبان گیری ؟</string>
+    <string name="data_deletion_completed">پاک کردن داده های تکمیلی</string>
+    <string name="settings_checked_items_behavior">چک لیست</string>
+    <string name="settings_checked_items_behavior_summary">وقتی که یک ایتم چک شود</string>
+    <string name="settings_category_preferences">تنظیمات</string>
+    <string name="settings_category_beta">Beta</string>
+    <string name="settings_category_about">در باره</string>
+    <string name="settings_beta">گوگل پلاس</string>
+    <string name="settings_beta_summary">Subscribe to the community to keep up to date with the latest features</string>
+    <string name="donate">Donate</string>
+    <string name="donate_summary">Support the development of this app with a non-profit donation</string>
+    <string name="settings_choose_language">Language</string>
+    <string name="settings_notification_ringtone">آهنگ های زنگ</string>
+    <string name="settings_enable_tag_marker_full">تمام رنگی</string>
+    <string name="settings_enable_tag_marker_full_summary">رنگی کردن کل کارت بنا به دستبندی</string>
+    <string name="settings_enable_tag_marker_full_list_only">فقط لیست</string>
+    <string name="settings_enable_tag_marker_full_list_only_summary">رنگی کردن نشانه در کارت</string>
+    <string name="settings_notification_snooze_delay">تاخیر در یادآوری دوم</string>
+    <string name="settings_simple_calendar">تقویم ساده و زمان</string>
+    <string name="settings_simple_calendar_summary">با استفاده از رابط کاربری اندروید برای انتخاب تاریخ / زمان، به جای رابط کاربری گوگل</string>
+    <string name="settings_tour_show_again">تور برنامه</string>
+    <string name="settings_tour_show_again_summary">تور نرم افزار را دوباره به من نشان بده</string>
+    <string name="backup_include_settings">شامل تنظیمات و رمز عبور</string>
+    <string name="settings_included">به همراه تنظیمات</string>
+    <string name="settings_password_question_instructions">قرار دادن یک سوال و یک پاسخ مخفی در زمانی که رمز عبور را فراموش کرده اید</string>
+    <string name="settings_password_question">سوال</string>
+    <string name="settings_password_answer">پاسخ</string>
+    <string name="settings_password_answer_check">تأیید پاسخ</string>
+    <string name="password_forgot">رمز عبور را فراموش کردم</string>
+    <string name="password_remove">حذف رمز عبور</string>
+    <string name="settings_answer_not_matching">پاسخ اشتباه بود</string>
+    <string name="password_not_set">رمز عبور تنظیم نشده</string>
+    <string name="wrong_answer">جواب اشتباه</string>
+    <string name="colors_app">طرح رنگ برنامه</string>
+    <string name="colors_widget">Widget color scheme</string>
+    <string name="settings_instant_search"> جستجوی فوری</string>
+    <string name="settings_navdrawer_on_exit">منوی ناوبری در هنگام خروج</string>
+    <string name="settings_navdrawer_on_exit_summary">Pressing \"back\" when in notes list opens navigation menu instead of exiting</string>
+    <string name="settings_text_size">اندازه متن</string>
+    <string name="settings_screen_behaviors">رفتار نرم افزار</string>
+    <string name="settings_enable_swipe">کشیدن یادداشت</string>
+    <string name="settings_enable_swipe_summary">قابلیت کشیدن یادداشت به طرفین</string>
+    <string name="settings_swipe_to_trash">کشیدن به سطل زباله</string>
+    <string name="settings_swipe_to_trash_summary_1">کشیدن یادداشت به طرفین جهت بایگانی کردن</string>
+    <string name="settings_swipe_to_trash_summary_2">کشیدن یادداشت به طرفین جهت دور انداختن</string>
+    <string name="settings_show_uncategorized">گروه طبقه بندی نشده</string>
+    <string name="settings_show_uncategorized_summary">افزودن یک آیتم جدید در منو برای یادداشت طبقه بندی نشده</string>
+    <string name="settings_show_category_count">تعداد یادداشت</string>
+    <string name="settings_show_category_count_summary">نشان دادن تعداد  یادداشت در هر دستبندی</string>
+    <string name="settings_auto_location">محل به صورت خودکار</string>
+    <string name="settings_auto_location_summary">افزودن محل جغرافیایی به صورت خودکار</string>
+    <string name="settings_dynamic_menu">منو متحرک</string>
+    <string name="settings_dynamic_menu_summary">پنهان کردن آیتم های استفاده نشده به صورت خودکار</string>
+    <string name="settings_fab_expansion_behavior">دکمه شناور</string>
+    <string name="settings_fab_expansion_behavior_summary_on">کلیک کردن کوتاه بر روی دکمه شناور باز کردن نوشته</string>
+    <string name="settings_fab_expansion_behavior_summary_off">کلیک کردن کوتاه بر روی دکمه شناور باز کردن منو</string>
+    <string name="settings_error_reporting">گزارش خطا</string>
+    <string name="settings_error_reporting_summary_on">When app crashes developer will be informed to help you</string>
+    <string name="settings_error_reporting_summary_off">No crash reports will be sent. Do not complain if something goes wrong!</string>
+    <string name="settings_statistics">آمار</string>
+
+
+    <!-- Instructions -->
+    <string name="tour_request_start">You launched PEP - Notes and Lists for the first time, would you like to take the application tour?</string>
+    <string name="tour_listactivity_intro_title">Welcome to PEP - Notes and Lists!</string>
+    <string name="tour_listactivity_intro_detail">press \"Proceed\" to continue the tour</string>
+    <string name="tour_listactivity_actions_title">Actions</string>
+    <string name="tour_listactivity_actions_detail">Create new notes, sort them, access to preferences</string>
+    <string name="tour_listactivity_home_title">Navigate</string>
+    <string name="tour_listactivity_home_detail">Navigation menu allows you to move through notes with filters and tags</string>
+    <string name="tour_listactivity_tag_title">Tags</string>
+    <string name="tour_listactivity_tag_detail">Add colored tags to find notes at-a-glance</string>
+    <string name="tour_detailactivity_attachment_title">Improve</string>
+    <string name="tour_detailactivity_attachment_detail">Add attachment of several kinds to your notes!</string>
+    <string name="tour_detailactivity_action_title">Do more</string>
+    <string name="tour_detailactivity_action_detail">Share, tag, archive, protect, and more&#8230;</string>
+    <string name="tour_detailactivity_reminder_title">Just press</string>
+    <string name="tour_detailactivity_reminder_detail">Long pression have different effects on an object (attachment, location, reminder) than short pression!</string>
+    <string name="tour_detailactivity_links_title">Links</string>
+    <string name="tour_detailactivity_links_detail">Click on an URL or e-mail address to copy or open it</string>
+    <string name="tour_detailactivity_swipe_title">Swipe</string>
+    <string name="tour_detailactivity_swipe_detail">Create new notes without \n leaving the one you\'re editing</string>
+    <string name="tour_detailactivity_save_title">Save</string>
+    <string name="tour_detailactivity_save_detail">To go back, press the \"up\" navigation icon, or your device button</string>
+    <string name="tour_listactivity_final_title">Enjoy</string>
+    <string name="tour_listactivity_final_detail">Thanks for using PEP - Notes and Lists \nThe opensource alternative for productivity and leisure note-taking!</string>
+
+    <!-- Accessibility -->
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer closed</string>
+    <string name="reminder">reminder</string>
+    <string name="stroke_size">stroke size</string>
+    <string name="note_thumbnail">note thumbnail</string>
+    <string name="note_reminder_symbol">note reminder symbol</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    /////money manager
+    <string name="menu_item_categories">دسته بندی ها</string>
+    <string name="menu_item_feedback">Feedback</string>
+    <string name="menu_item_about">About</string>
+
+    <string name="info_expense_created"> %1$.2f خرج شد در %2$s</string>
+
+    <string name="error_no_email_clients">No emails client installed</string>
+    <string name="error_category_name_empty">دسته نمی‌تواند خالی‌ باشد</string>
+    <string name="error_category_name_invalid">نام دسته نامعتبر است</string>
+    <string name="error_amount_invalid">مقدار نامعتبر است</string>
+    <string name="error_category_icon">ایکون انتخاب نشده</string>
+
+    <string name="label_send_email">Send email</string>
+    <string name="label_undo">خنثی کردن</string>
+    <string name="label_day">امروز</string>
+    <string name="label_week">ماهانه</string>
+    <string name="label_month">سالانه</string>
+    <string name="label_category_name">نام دسته</string>
+    <string name="label_amount">مبلغ</string>
+    <string name="label_date">تاریخ</string>
+    <string name="label_note">یادداشت</string>
+    <string name="label_today">امروز</string>
+    <string name="label_spent_today">خرج امروز</string>
+    <string name="label_this_week">خرج ماهانه</string>
+    <string name="label_this_month">خرج سالانه</string>
+    <string name="label_spent_the_most">بیشترین هزینه‌های امروز</string>
+    <string name="label_no_expenses">هزینه‌ای ثبت نشده !</string>
+    <string name="label_save">ذخیره</string>
+    <string name="label_delete">حذف کردن</string>
+    <string name="label_summary">خلاصه</string>
+    <string name="label_expenses_list">لیست هزینه ها</string>
+
+    <string name="caption_about">About</string>
+    <string name="caption_categories">دسته بندی ها</string>
+    <string name="caption_edit_category">ویرایش دسته بندی</string>
+    <string name="caption_new_category">دسته بندی جدید</string>
+    <string name="caption_edit_expense">ویرایش هزینه</string>
+    <string name="caption_new_expense">هزینه های جدید</string>
+    <string name="caption_expenses">مخارج</string>
+    <string name="label_category">دسته بندی</string>
+
+    <string name="text_about"></string>
+    <string name="text_github_url">http://github.com/bmelnychuk/outlay</string>
+
+    <string name="category_car">ماشین</string>
+    <string name="category_house">خونه</string>
+    <string name="category_sport">باشگاه</string>
+    <string name="category_travel">مسافرت</string>
+    <string name="category_clothes">لباس</string>
+    <string name="category_grocery">خواربار</string>
+    <string name="category_games">سرگرمی</string>
+    <string name="category_tickets">بلیط</string>
+
+    <string name="update_app_title" translatable="false">بروز رسانی بامداد</string>
+    <string name="update_app" translatable="false">بروز رسانی</string>
+    <string name="not_yet" translatable="false">بعدا</string>
+    <string name="title_activity_add"></string>
+
+
+    ///compass
+    <string name="noConnection">No Connection&#8230;</string>
+    <string name="touchToSelectCity">جهت انتخاب شهر اینجا کلیک کنید</string>
+    <string name="changelog">What\'s new?</string>
+    <string name="vote">Vote</string>
+    <string name="permissionCameraTitle">دسترسی به دوربین</string>
+    <string name="permissionCameraText">جهت مشاهدهٔ قطب نما و قبله نما به صورت سه بعدی، لازم است که دسترسی به دوربین را روشن کنید.</string>
+    <string name="permissionLocationText">جهت نشان دادن دقیق قبله، لازم است که دسترسی موقعیت جغرافیایی شما فعال باشد.</string>
+    <string name="permissionLocationTitle">دسترسی به مکان</string>
+
+
+    //////
+
+
+    <string name="activateForMorePrefs">جهت تنظیمات بیشتر، این قسمت را روشن کنید</string>
+    <string name="adhanVolume">میزان صدا</string>
+    <string name="adjAngle">بر حسب درجه</string>
+    <string name="adjMidnight">نیمه شب</string>
+    <string name="adjTime">بر حسب زمان</string>
+    <string name="afterImsak">بعد از فجر</string>
+    <string name="alternativeOngoing">ویجت اطلاع رسانی جایگزین</string>
+    <string name="angleBased">زاویه</string>
+    <string name="appName">زمان نماز گزار</string>
+    <string name="asr">عصر</string>
+    <string name="backup">Backup</string>
+    <string name="backupRestore">Backup/Restore</string>
+    <string name="beforeSun">قبل از طلوع خورشید </string>
+    <string name="blackWidget">ویجت تاریک </string>
+    <string name="calcMethod">روش محاسبه</string>
+    <string name="calendar">Holy Days</string>
+    <string name="cities">شهر ها</string>
+    <string name="corruptAudio">صدا قابل بارگذاری نیست</string>
+    <string name="customVolume">انتخاب میزان صدا</string>
+    <string name="dateAndTime">تاریخ و زمان</string>
+    <string name="dateFormat1">31 December 2013</string>
+    <string name="dateFormat2">31 December 13</string>
+    <string name="dateFormat">Date Format</string>
+    <string name="dayFr">جمعه</string>
+    <string name="dayMo">دوشنبه</string>
+    <string name="daySa">شنبه</string>
+    <string name="dayShortFr">جمعه.</string>
+    <string name="dayShortMo">دوشنبه.</string>
+    <string name="dayShortSa">شنبه.</string>
+    <string name="dayShortSu">یکشنبه.</string>
+    <string name="dayShortTh">پنج شنبه.</string>
+    <string name="dayShortTu">سه شنبه.</string>
+    <string name="dayShortWe">چهار شنبه.</string>
+    <string name="daySu">یکشنبه</string>
+    <string name="dayTh">پنج شنبه</string>
+    <string name="dayTu">سه شنبه</string>
+    <string name="dayWe">چهار شنبه</string>
+    <string name="delConfirmDhikr">مایل به حذف هستید \“%1$s\”?</string>
+    <string name="delConfirm">آیا تصمیم به حذف کردن این شهر را دارید :  %1$s?</string>
+    <string name="dhikrCount">ذکر شمار</string>
+    <string name="dhikr">ذکر</string>
+    <string name="djuma">نماز جمعه</string>
+    <string name="dlSound">مایل به دانلود این موذن هستید :  “%1$s” (%2$s)?</string>
+    <string name="earlyNotification">یاد آوری قبل از اذان</string>
+    <string name="earlyText">%2$s دقیقه به %1$s</string>
+    <string name="fajr">اذان صبح</string>
+    <string name="fajrIshaaCalculation">محاسبه فجر:</string>
+    <string name="fasting">روزه داری</string>
+    <string name="filePicker">انتخابگر فایل</string>
+    <string name="fixTimezone">منطقه زمانی‌ +/-</string>
+    <string name="gmonth1">January</string>
+    <string name="gmonth2">February</string>
+    <string name="gmonth3">March</string>
+    <string name="gmonth4">April</string>
+    <string name="gmonth5">May</string>
+    <string name="gmonth6">June</string>
+    <string name="gmonth7">July</string>
+    <string name="gmonth8">August</string>
+    <string name="gmonth9">September</string>
+    <string name="gmonth10">October</string>
+    <string name="gmonth11">November</string>
+    <string name="gmonth12">December</string>
+    <string name="hadith">Sahih al-Bukhary</string>
+    <string name="hDateFormat1">30 Muharram 1434</string>
+    <string name="hDateFormat2">30 Muharram 34</string>
+    <string name="hdateFormat">Hijri Date Format</string>
+    <string name="hijriFix">Hijri Date adjustment</string>
+    <string name="hmonth1">Muharram</string>
+    <string name="hmonth2">Safar</string>
+    <string name="hmonth3">Rabi al-awwal</string>
+    <string name="hmonth4">Rabi al-achir</string>
+    <string name="hmonth5">Jumada al-awwal</string>
+    <string name="hmonth6">Jumada l-akhira</string>
+    <string name="hmonth7">Rajab</string>
+    <string name="hmonth8">Shaban</string>
+    <string name="hmonth9">Ramadan</string>
+    <string name="hmonth10">Shawwal</string>
+    <string name="hmonth11">Dhu l-Qaʿda</string>
+    <string name="hmonth12">Dhū l-Hijja</string>
+    <string name="holyday1">Islamic New Year</string>
+    <string name="holyday2">Ashura</string>
+    <string name="holyday3">Mawlid al-Nabi</string>
+    <string name="holyday4">Beginning of the three sacred months</string>
+    <string name="holyday5">Laylat ul Ragaib</string>
+    <string name="holyday6">Laylat ul Isra and Miraj</string>
+    <string name="holyday7">Laylat ul Bara’ah</string>
+    <string name="holyday8">Ramadan begins</string>
+    <string name="holyday9">Laylat al-Qadr</string>
+    <string name="holyday10">(Arafat of Eid al-Fitr)</string>
+    <string name="holyday11">Eid al-Fitr 1st day</string>
+    <string name="holyday12">Eid al-Fitr 2nd day</string>
+    <string name="holyday13">Eid al-Fitr 3rd day</string>
+    <string name="holyday14">Arafat Day</string>
+    <string name="holyday15">Eid al-Adha  1st day</string>
+    <string name="holyday16">Eid al-Adha  2nd day</string>
+    <string name="holyday17">Eid al-Adha  3rd day</string>
+    <string name="holyday18">Eid al-Adha  4th day</string>
+    <string name="ishaa">عشاء</string>
+    <string name="juristicHanafi">حنفی</string>
+    <string name="juristicShafi">شفیع (پیش فرض)</string>
+    <string name="kerahatDuration">زمان مکروه خواندن نماز</string>
+    <string name="kerahatIstiwa">زمان استوا ( قبل از اذان ظهر)</string>
+    <string name="kerahatMaghrib">غروب ( قبل از اذان مغرب )</string>
+    <string name="kerahatSun">طلوع خورشید ( بعد از اذان صبح )</string>
+    <string name="kerahatTime">زمان کراهت</string>
+    <string name="leftText">%1$s | %3$s به %2$s</string>
+    <string name="maghrib">اذان مغرب</string>
+    <string name="missedPrayers">نماز‌های از دست رفته</string>
+    <string name="monthly">نمایش ماهانه</string>
+    <string name="morningPrayer">نماز صبح</string>
+    <string name="names">99 Names of Allah</string>
+    <string name="newAddCity">Use new City Chooser</string>
+    <string name="newDhikr">ذکر جدید</string>
+    <string name="notification">نوتیفیکیشن</string>
+    <string name="oldAddCity">Use manuel City Chooser</string>
+    <string name="ongoingIcon">Notification-Icon</string>
+    <string name="ongoingNotification">نوتیفیکیشن چسبنده</string>
+    <string name="other">دیگر</string>
+    <string name="permissionCalendarText">If you want, that the Holy Days appear in your Phone Calendar, you have to allow Calendar Access. Otherwise do not.</string>
+    <string name="permissionCalendarTitle">Calendar Berechtigung</string>
+    <string name="permissionStorageText">جهت همگام سازی با فایل های صوتی نیاز است که دسترسی به فایل ها تایید شود, در غیره این صورت نرمافزار با مشکل روبرو میشود.</string>
+    <string name="permissionStorageTitle">اجازه ذخیره سازی</string>
+    <string name="prayerNotification">یاد آوری نماز و اوقات شرعی</string>
+    <string name="refresh">Synchronize</string>
+    <string name="resetConfirmDhikr">آیا قصد تنظیم مجدد دارید\“%1$s\”?</string>
+    <string name="restore">بازگرداندن</string>
+    <string name="selectOther">انتخاب سایر صداها&#8230;</string>
+    <string name="sendMail">پست الکترونیکی‌</string>
+    <string name="shareTimes">اوقات شرعی امروز به وقت %1$s</string>
+    <string name="showMore">اطلاعات بیشتر</string>
+    <string name="silenterDuration">مدت زمان سکوت</string>
+    <string name="silenterType">در حالت سکوت</string>
+    <string name="silent">سکوت</string>
+    <string name="soundPicker">انتخاب صدا</string>
+    <string name="sound">صدا</string>
+    <string name="sun">طلوع آفتاب</string>
+    <string name="tasbih">تسبیح</string>
+    <string name="tesbihat">تسبیحات</string>
+    <string name="timeBased">دقایق</string>
+    <string name="time">زمان</string>
+    <string name="transWhiteWidget">ویجت شفاف سفید (بامداد - نمازگزار)</string>
+    <string name="transWidget">ویجت شفاف (بامداد - نمازگزار)</string>
+    <string name="test">تلاش مجدد</string>
+    <string name="use12h">Use 12 Hours Format</string>
+    <string name="useArabicNames">Use Arabic Prayertimes</string>
+    <string name="useSilenter">سکوت</string>
+    <string name="useVibration">ویبره</string>
+    <string name="vibrationDesc">میلی‌ ثانیه تا رفتن بر روی ویبره &#8230;</string>
+    <string name="vibrationPattern">الگوی لرزش</string>
+    <string name="volumeAlarm">حجم صدا - زنگ هشدار</string>
+    <string name="volumeMedia">حجم صدا - اذان</string>
+    <string name="volumeRingtone">حجم صدا - آهنگ هشدار</string>
+    <string name="whiteWidget">ویجت سفید (بامداد - نمازگزار)</string>
+    <string name="widgetClock">اوقات شرعی - 4 * 2 ساعت</string>
+    <string name="widgetCountdownType">ویجت - شمارش معکوس</string>
+    <string name="widgetDesign">تم</string>
+    <string name="widgetLong">اوقات شرعی - 4 * 1 ویجت</string>
+    <string name="widget">اوقات شرعی - 2 * 2 ویجت</string>
+    <string name="widgetSilenter">Prayer Times - Silenter Widget</string>
+    <string name="widgetSmall">اوقات شرعی - 1 * 1 ویجت</string>
+    <string name="witr">نماز نیت</string>
+    <string name="zuhr">اذان ظهر</string>
+    <string name="calculated">اوقات شرعی به وقت</string>
+    <string name="widgetClock2">اوقات شرعی - 2 * 2 ساعت</string>
+    <string name="numbers">ارقام</string>
+    <string name="dateFormat3">31 December </string>
+    <string name="hDateFormat3">30 Muharram </string>
+    <string name="useAlarm">استفاده از زنگ برای هشدار</string>
+  <string name="useAlarmDesc">EXPERIMENTAL - If Notifications are not triggered in time, you can try this Setting. An
+        alarm clock icon will be added to the Status bar!
+    </string>
+    <string name="ongoingNumber">Show minutes in Notification-Icon</string>
+    <string name="vakit_indicator">نشانگر اوقات شرعی </string>
+    <string name="vakit_indicator_next">اوقات شرعی بعدی</string>
+    <string name="vakit_indicator_current">اوقات شرعی کنونی</string>
+    <string name="show_notification_screen">نشان دادن صفحه نوتیفیکیشن</string>
+    <string name="autoremove_notification">حذف نوتیفیکیشن بعد از اذان</string>
+
+    <string name="on_gps_add_city">در حال جستجو موقعیت جغرافیای، اگر پس از ۳۰ ثانیه موقعیت یافت نشد از قسمت سرچ امتحان کنید</string>
+    <string name="off_gps_add_city">جی‌پی‌اس شما خاموش می‌باشد لطفا از قسمت جستجو استفاده یا جی‌پی‌اس خود را روشن کنید.</string>
+    <string name="on_net_add_city">قبل از جستجو اینترنت خود را روشن کنید، در غیر این صورت اطلاعات دقیق نمی‌باشد.</string>
+
+    <string name="update_text">بامداد شما بروز نمیباشد, جهت بهتر عمل کردن و برطرف کردن مشکلات احتمالی اینجا کلیک کنید تا با بروز رسانی از بامداد خود لذت ببرید.</string>
+</resources>

@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.byagowi.persiancalendar"
+    >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="com.pushbullet.android.permission.READ_MESSAGING_EXTENSION_DATA" />
+    <uses-permission android:name="com.pushbullet.android.permission.SEND_MESSAGES" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!--<uses-sdk-->
+        <!--tools:overrideLibrary="com.michaldrabik.tapbarmenulib"-->
+        <!--/>-->
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:name="com.omninotes.OmniNotes"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launch"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/DarkTheme"
+        tools:replace="android:theme, android:icon"
+        >
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".ListActivity" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"
+            tools:replace="android:value" />
+
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".view.activity.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".view.activity.MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".service.BroadcastReceivers"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".Widget1x1"
+            android:exported="false"
+            android:icon="@mipmap/ic_launch"
+            android:label="@string/widget_mini_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/persiancalendar_provider1x1" />
+        </receiver>
+        <receiver
+            android:name=".Widget4x1"
+            android:exported="false"
+            android:icon="@mipmap/ic_launch"
+            android:label="@string/widget_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/persiancalendar_provider4x1" />
+        </receiver>
+        <receiver
+            android:name=".Widget2x2"
+            android:exported="false"
+            android:icon="@mipmap/ic_launch"
+            android:label="@string/widget_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/persiancalendar_provider2x2" />
+        </receiver>
+
+        <service
+            android:name=".DashClockUpdate"
+            android:icon="@drawable/day31"
+            android:label="@string/app_name"
+            android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA" >
+            <intent-filter>
+                <action android:name="com.google.android.apps.dashclock.Extension" />
+            </intent-filter>
+
+            <meta-data
+                android:name="protocolVersion"
+                android:value="1" />
+            <meta-data
+                android:name="description"
+                android:value="Persian Calendar" />
+        </service>
+        <service
+            android:name=".service.ApplicationService"
+            android:label="Calendar Service" />
+
+        //////////recurrence//////
+        <activity
+            android:name="com.recurrence.activities.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.recurrence.activities.CreateEditActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppThemeLight" />
+        <activity
+            android:name="com.recurrence.activities.ViewActivity"
+            android:theme="@style/AppThemeLight" />
+        <activity
+            android:name="com.recurrence.activities.PreferenceActivity"
+            android:label="@string/settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.recurrence.activities.AboutActivity"
+            android:label="@string/about"
+            android:theme="@style/AppThemeLight" />
+        <activity
+            android:name="com.recurrence.activities.SnoozeDialogActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@style/AppThemeTransparent" />
+        <activity
+            android:name="com.recurrence.widgets.CreateEditShortcut"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@style/AppThemeDialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.recurrence.widgets.ShortcutActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.recurrence.receivers.AlarmReceiver" />
+        <receiver android:name="com.recurrence.receivers.SnoozeActionReceiver" />
+        <receiver android:name="com.recurrence.receivers.SnoozeReceiver" />
+        <receiver android:name="com.recurrence.receivers.DismissReceiver" />
+        <receiver android:name="com.recurrence.receivers.NagReceiver" />
+        <receiver
+            android:name="com.recurrence.receivers.BootReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        /////PEP///
+
+        <!-- List and Detail -->
+        <activity
+            android:name="com.omninotes.MainActivityPep"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.backup.api_key"
+                android:value="AEdPqrEAAAAIaaHgSyY2WXVxSlKBuQpwVi9A8OXn0J5R5sAhcg" />
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable_pep" />
+
+            <intent-filter>
+                <action android:name="com.google.android.gm.action.AUTO_SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="hashtag" />
+            </intent-filter>
+        </activity>
+
+        <!-- Gallery -->
+        <activity
+            android:name="com.omninotes.GalleryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:supportsRtl="true"
+            android:theme="@style/OmniNotesFullscreenTheme.ApiSpec" />
+        <activity
+            android:name="com.omninotes.CategoryActivity"
+            android:label="@string/title_activity_category"
+            android:parentActivityName="com.omninotes.MainActivityPep"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.omninotes.MainActivityPep" />
+        </activity>
+
+        <!-- Settings -->
+        <activity
+            android:name="com.omninotes.SettingsActivity"
+            android:label="@string/settings"
+            android:parentActivityName="com.omninotes.MainActivityPep"
+            android:theme="@style/PreferencesTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.omninotes.MainActivityPep" />
+        </activity>
+
+        <!-- Password -->
+        <activity
+            android:name="com.omninotes.PasswordActivity"
+            android:theme="@style/OmniNotesTheme.ApiSpec.Dialog"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- Info -->
+        <activity
+            android:name="com.omninotes.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:launchMode="singleTop" />
+
+        <!-- Intro -->
+
+
+        <!-- Snooze reminder -->
+        <activity
+            android:name="com.omninotes.SnoozeActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@style/OmniNotesTheme.NoDisplay" />
+
+        <!-- Stats -->
+        <activity
+            android:name="com.omninotes.StatsActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+
+        <!-- ACRA -->
+        <activity
+            android:name="org.acra.CrashReportDialog"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+
+        <!-- Alarm broadcast receiver -->
+        <receiver android:name="com.omninotes.receiver.AlarmReceiver" />
+
+        <!-- Reboot broadcast receiver -->
+        <receiver
+            android:name="com.omninotes.receiver.BootCompleteReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:label="BootCompleteReceiver"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Restore on reboot alarm service -->
+        <service android:name="com.omninotes.async.AlarmRestoreOnRebootService" />
+
+        <!-- Data export and import service -->
+        <service android:name="com.omninotes.async.DataBackupIntentService" />
+
+        <!-- Widget configuration Activity -->
+        <activity
+            android:name="com.omninotes.widget.WidgetConfigurationActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <!-- Widget Simple -->
+        <receiver
+            android:name="com.omninotes.widget.SimpleWidgetProvider"
+            android:description="@string/widget_simple_description"
+            android:icon="@drawable/logo1"
+            android:label="تقویم فارسی یادداشت" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_simple_pep" />
+        </receiver>
+        <!-- Widget List -->
+        <receiver
+            android:name="com.omninotes.widget.ListWidgetProvider"
+            android:description="@string/widget_list_description"
+            android:icon="@drawable/logo1"
+            android:label="تقویم فارسی یادداشت" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_list_pep" />
+        </receiver>
+
+        <service
+            android:name="com.omninotes.widget.ListWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <!-- DashClock plugin service -->
+        <service
+            android:name="com.omninotes.async.ONDashClockExtension"
+            android:icon="@drawable/ic_stat_notification_icon"
+            android:label="@string/app_name"
+            android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA" >
+            <intent-filter>
+                <action android:name="com.google.android.apps.dashclock.Extension" />
+            </intent-filter>
+
+            <meta-data
+                android:name="protocolVersion"
+                android:value="2" />
+            <meta-data
+                android:name="worldReadable"
+                android:value="true" />
+            <meta-data
+                android:name="description"
+                android:value="@string/dashclock_description" />
+            <!-- A settings_pep activity is optional -->
+            <!-- <meta-data -->
+            <!-- android:name="settingsActivity" -->
+            <!-- android:value=".ExampleSettingsActivity" /> -->
+        </service>
+        <service
+            android:name="com.omninotes.extensions.PushBulletExtension"
+            android:permission="com.pushbullet.android.permission.READ_MESSAGING_EXTENSION_DATA" >
+            <intent-filter>
+                <action android:name="com.pushbullet.android.extension.MessagingExtension" />
+            </intent-filter>
+
+            <meta-data
+                android:name="protocolVersion"
+                android:value="1" />
+        </service>
+
+        <activity
+            android:name="com.outlay.view.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.outlay.view.activity.SingleFragmentActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="0" />
+
+        <activity
+            android:name=".view.activity.AddActivity"
+            android:label="@string/title_activity_add"
+            android:theme="@style/DarkTheme" />
+
+        <activity
+            android:name="com.compass.compass.Main"
+            android:label="@string/compass"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.compass.compass.LocationPicker"
+            android:theme="@style/Theme.AppCompat.Dialog"/>
+
+
+        //////prayer
+        <service android:name="com.mapbox.mapboxsdk.telemetry.TelemetryService"/>
+
+        <activity
+            android:name="com.prayer.vakit.fragments.NotificationPopup"
+            android:launchMode="singleInstance"
+            android:showOnLockScreen="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name="com.prayer.vakit.Main"
+            android:label="@string/appName"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity
+            android:name="com.prayer.settings.BackupRestoreActivity"
+            android:label="@string/backupRestore"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity
+            android:name="com.prayer.vakit.MainStart"
+            android:label="@string/appName"
+            android:supportsPictureInPicture="true"
+            android:resizeableActivity="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+
+        <activity-alias
+            android:name=".aliasDefault"
+            android:label="@string/appName"
+            android:targetActivity="com.prayer.vakit.MainStart">
+        </activity-alias>
+        <activity-alias
+            android:name=".aliasTR"
+            android:enabled="false"
+            android:label="Namaz Vakti"
+            android:targetActivity="com.prayer.vakit.MainStart">
+        </activity-alias>
+
+        <activity-alias
+            android:name=".aliasAR"
+            android:enabled="false"
+            android:label="أوقات الصلاة"
+            android:targetActivity="com.prayer.vakit.MainStart">
+        </activity-alias>
+        <activity-alias
+            android:name=".aliasDE"
+            android:enabled="false"
+            android:label="Gebetszeiten"
+            android:targetActivity="com.prayer.vakit.MainStart">
+        </activity-alias>
+        <activity-alias
+            android:name=".aliasEN"
+            android:enabled="false"
+            android:label="Prayer Times"
+            android:targetActivity="com.prayer.vakit.MainStart">
+        </activity-alias>
+
+        <activity
+            android:name="com.prayer.vakit.AddCity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity
+            android:name="com.prayer.vakit.AddCityLegacy"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+        <activity
+            android:name="com.prayer.vakit.WidgetConfigure"
+            android:label="Configure Widget"
+            android:theme="@style/Theme.AppCompat.Dialog">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.prayer.vakit.WidgetConfigureClock"
+            android:label="Configure Widget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.prayer.settings.Settings"/>
+        <activity
+            android:name="com.prayer.kaza.Main"
+            android:label="@string/missedPrayers"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">>
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.prayer.vakit.SilenterPrompt"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.prayer.zikr.Main"
+            android:label="@string/dhikr"
+            android:logo="@mipmap/ic_zikr"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.prayer.vakit.AlarmReceiver"/>
+        <service android:name="com.prayer.MainIntentService"/>
+        <service
+            android:name="com.prayer.vakit.WidgetService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.USER_UNLOCKED"/>
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.prayer.vakit.WidgetProvider"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/widget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/vakit_widget"/>
+        </receiver>
+        <receiver
+            android:name="com.prayer.vakit.WidgetProviderClock"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/widgetClock">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/vakit_widget_clock"/>
+        </receiver>
+
+        <receiver
+            android:name="com.prayer.vakit.WidgetProviderClock2"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/widgetClock2">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/vakit_widget_clock2"/>
+        </receiver>
+        <receiver
+            android:name="com.prayer.vakit.WidgetProviderLong"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/widgetLong">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/vakit_widget_long"/>
+        </receiver>
+        <receiver
+            android:name="com.prayer.vakit.WidgetProviderSmall"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/widgetSmall">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/vakit_widget_small"/>
+        </receiver>
+        <receiver android:name="com.prayer.vakit.AlarmReceiver$WakefulReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.prayer.UserPresentReceiver">
+            <intent-filter
+                android:enabled="true"
+                android:exported="false">
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.USER_UNLOCKED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.prayer.vakit.AlarmReceiver$Audio"/>
+        <receiver android:name="com.prayer.vakit.AlarmReceiver$setNormal"/>
+        <receiver android:name="com.prayer.vakit.AlarmReceiver$setVibrate"/>
+
+        <uses-library
+            android:required="false"
+            android:name="com.sec.android.app.multiwindow"></uses-library>
+
+        <meta-data
+            android:name="com.sec.android.support.multiwindow"
+            android:value="true"/>
+
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+            android:resource="@dimen/app_defaultsize_w"/>
+
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+            android:resource="@dimen/app_defaultsize_h"/>
+
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+            android:resource="@dimen/app_minimumsize_w"/>
+
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+            android:resource="@dimen/app_minimumsize_h"/>[/code]
+
+        <receiver
+            android:name="com.prayer.vakit.times.NetworkChangeReceiver"
+            android:label="NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

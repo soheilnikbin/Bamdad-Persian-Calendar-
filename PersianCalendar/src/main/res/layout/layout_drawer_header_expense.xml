@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_main"
+    >
+
+    <RelativeLayout
+        android:id="@+id/logoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/drawer_header_height"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/spacing_big">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_drawer_expense"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/app_name"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/todayLabel"
+        style="@style/DrawerHeaderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/logoContainer"
+        android:text="@string/label_spent_today"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dateAmount"
+        style="@style/DrawerHeaderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/logoContainer"
+        android:textColor="@color/accent"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weekLabel"
+        style="@style/DrawerHeaderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/todayLabel"
+        android:text="@string/label_this_week"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weekAmount"
+        style="@style/DrawerHeaderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/dateAmount"
+        android:textColor="@color/accent"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/monthLabel"
+        style="@style/DrawerHeaderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/weekLabel"
+        android:text="@string/label_this_month"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/monthAmount"
+        style="@style/DrawerHeaderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/weekAmount"
+        android:textColor="@color/accent"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/separator1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/monthLabel"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:background="@color/separator" />
+
+    <TextView
+        android:id="@+id/mostSpentLabel"
+        style="@style/DrawerHeaderLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/separator1"
+        android:text="@string/label_spent_the_most" />
+
+    <LinearLayout
+        android:id="@+id/mostSpentCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mostSpentLabel"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+</RelativeLayout>

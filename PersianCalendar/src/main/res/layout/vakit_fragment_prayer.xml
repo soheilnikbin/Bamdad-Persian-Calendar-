@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/kerahat"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/kerahat"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/kerahatTime"
+        android:textColor="@color/background"
+        android:textSize="18sp"
+        android:visibility="gone"/>
+
+
+    <com.prayer.utils.AutoResizeTextView
+        android:id="@+id/city"
+        android:layout_below="@id/date"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="10%"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:lines="1"/>
+
+    <com.prayer.utils.AutoResizeTextView
+        android:layout_below="@id/city"
+        android:id="@+id/imsak"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="8%"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingEnd="50dp"
+        android:paddingRight="50dp"
+        android:gravity="right"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/textGreyHeader"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/fajr"/>
+
+    <com.prayer.utils.AutoResizeTextView
+        android:layout_below="@id/city"
+        android:id="@+id/imsaktime"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="8%"
+        android:text="00:00"
+        android:textColor="@color/textGreyHeader"
+        android:gravity="left"
+        android:fontFamily="sans-serif-thin"
+        android:paddingStart="50dp"
+        android:paddingLeft="50dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"/>
+
+    <com.prayer.utils.AutoResizeTextView
+        android:layout_below="@id/imsak"
+        android:id="@+id/gunes"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="8%"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/sun"
+        android:textColor="@color/textGreyHeader"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingEnd="50dp"
+        android:paddingRight="50dp"
+        android:gravity="right"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <com.prayer.utils.AutoResizeTextView
+        android:layout_below="@id/imsak"
+        android:id="@+id/gunestime"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="8%"
+        android:text="00:00"
+        android:textColor="@color/textGreyHeader"
+        android:gravity="left"
+        android:fontFamily="sans-serif-thin"
+        android:paddingStart="50dp"
+        android:paddingLeft="50dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"/>
+
+    <com.prayer.utils.AutoResizeTextView
+        android:layout_below="@id/gunes"
+        android:id="@+id/ogle"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="8%"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/zuhr"
+        android:textColor="@color/textGreyHeader"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingEnd="50dp"
+        android:paddingRight="50dp"
+        android:gravity="right"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <com.prayer.utils.AutoResizeTextView
+        android:layout_below="@id/gunes"
+        android:id="@+id/ogletime"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="8%"
+        android:text="00:00"
+        android:textColor="@color/textGreyHeader"
+        android:gravity="left"
+        android:fontFamily="sans-serif-thin"
+        android:paddingStart="50dp"
+        android:paddingLeft="50dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"/>
+
+    <com.prayer.utils.AutoResizeTextView
+        android:layout_below="@id/ogle"
+        android:id="@+id/ikindi"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="8%"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/asr"
+        android:textColor="@color/textGreyHeader"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingEnd="50dp"
+        android:paddingRight="50dp"
+        android:gravity="right"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <com.prayer.utils.AutoResizeTextView
+        android:layout_below="@id/ogle"
+        android:id="@+id/ikinditime"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="8%"
+        android:text="00:00"
+        android:textColor="@color/textGreyHeader"
+        android:gravity="left"
+        android:fontFamily="sans-serif-thin"
+        android:paddingStart="50dp"
+        android:paddingLeft="50dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"/>
+
+    <com.prayer.utils.AutoResizeTextView
+        android:layout_below="@id/ikindi"
+        android:id="@+id/aksam"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="8%"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/maghrib"
+        android:textColor="@color/textGreyHeader"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingEnd="50dp"
+        android:paddingRight="50dp"
+        android:gravity="right"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <com.prayer.utils.AutoResizeTextView
+        android:id="@+id/aksamtime"
+        android:layout_below="@id/ikindi"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="8%"
+        android:text="00:00"
+        android:gravity="left"
+        android:fontFamily="sans-serif-thin"
+        android:paddingStart="50dp"
+        android:paddingLeft="50dp"
+        android:textColor="@color/textGreyHeader"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"/>
+
+    <com.prayer.utils.AutoResizeTextView
+        android:layout_below="@id/aksam"
+        android:id="@+id/yatsi"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="8%"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/ishaa"
+        android:textColor="@color/textGreyHeader"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingEnd="50dp"
+        android:paddingRight="50dp"
+        android:gravity="right"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <com.prayer.utils.AutoResizeTextView
+        android:layout_below="@id/aksam"
+        android:id="@+id/yatsitime"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="8%"
+        android:text="00:00"
+        android:gravity="left"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="@color/textGreyHeader"
+        android:paddingStart="50dp"
+        android:paddingLeft="50dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="50dp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/yatsitime"
+        android:elevation="9dp"
+        app:cardBackgroundColor="#1e2c34"
+        app:cardCornerRadius="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="زمان باقی‌ مانده تا اذان"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:id="@+id/countdownHeader" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/countdownHeader"
+                android:id="@+id/countdown"
+                android:layout_margin="5dp"
+                android:text="dsas"
+                android:textSize="25sp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/textGreyHeader"
+                android:gravity="center"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:id="@+id/source2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/kerahat"
+        android:layout_marginStart="5dip"
+        android:layout_marginEnd="5dip"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/appName"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:id="@+id/source1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/kerahat"
+        android:layout_marginStart="5dip"
+        android:layout_marginEnd="5dip"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/appName"
+        android:layout_alignParentLeft="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#ffffff"/>
+
+
+</android.support.percent.PercentRelativeLayout>

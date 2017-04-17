@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumpadButton">
+        <attr name="numpadButtonText" format="string" />
+        <attr name="numpadButtonIcon" format="string" />
+    </declare-styleable>
+    <declare-styleable name="progressLayout">
+        <attr name="emptyColor" format="color" />
+        <attr name="loadedColor" format="color" />
+        <attr name="maxProgress" format="integer" />
+        <attr name="autoProgress" format="boolean"/>
+    </declare-styleable>
+
+    //compass
+    <declare-styleable name="ShadowContainer">
+        <attr name="shadowSize" format="float"/>
+        <attr name="maxShadowSize" format="dimension"/>
+        <attr name="shadow" format="boolean"/>
+        <attr name="shadowTop" format="boolean"/>
+        <attr name="shadowBottom" format="boolean"/>
+        <attr name="shadowLeft" format="boolean"/>
+        <attr name="shadowRight" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="MultipleOrientationSlidingDrawer">
+        <attr name="handle" format="reference"/>
+        <attr name="content" format="reference"/>
+        <attr name="bottomOffset" format="dimension"/>
+        <attr name="topOffset" format="dimension"/>
+        <attr name="allowSingleTap" format="boolean"/>
+        <attr name="animateOnClick" format="boolean|color"/>
+    </declare-styleable>
+</resources>

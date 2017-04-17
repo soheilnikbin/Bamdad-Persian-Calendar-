@@ -1,0 +1,123 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="outsideOverlay"
+        android:clipToPadding="false"
+        android:paddingTop="4dp"
+        android:paddingBottom="@dimen/fab_recycler_view_padding"
+        android:paddingLeft="@dimen/list_padding"
+        android:paddingRight="@dimen/list_padding"
+        android:drawSelectorOnTop="true"
+        android:animationCache="false"
+        android:scrollingCache="false"
+        android:divider="@android:color/transparent"/>
+    <FrameLayout
+        android:id="@+id/fragment_container_note"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary"
+        android:visibility="gone">
+        <com.nhaarman.listviewanimations.itemmanipulation.DynamicListView
+            android:id="@+id/list_note"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="@dimen/padding_half"
+            android:clipToPadding="false"
+            android:scrollbarSize="4dp"
+            android:drawSelectorOnTop="true"
+            android:listSelector="@drawable/icon_selector"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbarThumbVertical="@drawable/scroll_bar"
+            android:fastScrollEnabled="true"
+            android:smoothScrollbar="true"
+            android:scrollingCache="false"
+            android:animationCache="false"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/empty_icon"
+            android:src="@drawable/ic_notifications_black_empty"
+            android:alpha="0.1"
+            android:paddingBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/empty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:paddingBottom="50dp"
+            android:textColor="@color/emptyColour"
+            android:text="@string/no_active" />
+
+    </LinearLayout>
+</LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_note"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="outsideOverlay"
+        android:clipToPadding="false"
+        android:paddingTop="4dp"
+        android:background="@color/primary"
+        android:paddingBottom="@dimen/fab_recycler_view_padding"
+        android:paddingLeft="@dimen/list_padding"
+        android:paddingRight="@dimen/list_padding"
+        android:drawSelectorOnTop="true"
+        android:animationCache="false"
+        android:scrollingCache="false"
+        android:divider="@android:color/transparent"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:id="@+id/empty_view_nots"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/primary"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/empty_icon_note"
+            android:src="@mipmap/ic_note"
+            android:alpha="0.1"
+            android:paddingBottom="20dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"/>
+
+        <TextView
+            android:id="@+id/empty_text_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:paddingBottom="50dp"
+            android:textColor="@color/emptyColour"
+            android:text="@string/no_active" />
+
+    </LinearLayout>
+</RelativeLayout>

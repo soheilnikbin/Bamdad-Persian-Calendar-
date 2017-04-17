@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="qibla_color">#888</color>
+    <color name="widget_holiday">#ff8a65</color>
+
+    <color name="dark_primary">#263238</color>
+    <color name="transparent_dark_primary">#BF263238</color>
+    <color name="dark_primary_dark">#263238</color>
+    <color name="dark_accent">#64ffda</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_text_normal">#ffffff</color>
+    <color name="dark_text_second">#cfcfcf</color>
+    <color name="dark_text_primary">#009688</color>
+    <color name="dark_text_drawer">#ffffff</color>
+    <color name="dark_text_holiday">#ef6c00</color>
+    <color name="dark_holiday">#e65100</color>
+    <color name="dark_text_day">#ffffff</color>
+    <color name="dark_text_day_name">#9e9e9e</color>
+    <color name="dark_month_switch">#1de9b6</color>
+    <color name="dark_text_athan">#ffffff</color>
+
+    <color name="dark_divider">#263238</color>
+    <color name="dark_background">#263238</color>
+    <color name="dark_card_background">#384248</color>
+    <color name="dark_current_day">#64ffda</color>
+    <color name="dark_select_day">#e0e0e0</color>
+    <color name="dark_drawer_background">#263238</color>
+    <color name="dark_drawer_select">#1e2f38</color>
+
+    <color name="dark_icon">#00bfa5</color>
+    <color name="dark_icon_drawer">#00bfa5</color>
+
+    <color name="light_primary">#00695c</color>
+    <color name="light_primary_dark">#004d40</color>
+    <color name="light_accent">#00796b</color>
+
+    <color name="green_refresh">#00695c</color>
+    <color name="light_text_normal">#232323</color>
+    <color name="light_text_second">#737373</color>
+    <color name="light_text_primary">#00796b</color>
+    <color name="light_text_drawer">#737373</color>
+    <color name="light_text_holiday">#d84315</color>
+    <color name="light_holiday">#ff8a65</color>
+    <color name="light_text_day">#ffffff</color>
+    <color name="light_text_day_name">#b2dfdb</color>
+    <color name="light_month_switch">#ff7043</color>
+    <color name="light_text_athan">#ffffff</color>
+
+    <color name="light_divider">#e0e0e0</color>
+    <color name="light_background">#f4f4f4</color>
+    <color name="light_card_background">#fafafa</color>
+    <color name="light_current_day">#ff7043</color>
+    <color name="light_select_day">#eff2f1</color>
+    <color name="light_drawer_background">#f4f4f4</color>
+    <color name="light_drawer_select">#eeeeee</color>
+
+    <color name="light_icon">#00897b</color>
+    <color name="light_icon_drawer">#00897b</color>
+
+
+    ////////recurrence///////
+    <color name="primary">#263238</color>
+    <color name="picker_primary">#374a4b</color>
+    <color name="primaryDark">#263238</color>
+    <color name="accent">#00695c</color>
+    <color name="accentLight">#ff00695c</color>
+    <color name="background">#2b3438</color>
+    <color name="lightGray">#2b3438</color>
+    <color name="textLightGray">#ffffff</color>
+    <color name="textGreyHeader">#c7c7c7</color>
+    <color name="notificationContentText">#737373</color>
+    <color name="error">#da1b21</color>
+    <color name="iconTint">#8e8e8e</color>
+    <color name="default_colour_grey">#8e8e8e</color>
+    <color name="emptyColour">#bababa</color>
+    <color name="errorColor">#C0392B</color>
+
+
+    ////search view color
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#00695c</color>
+    <color name="serachViewBackground">#263238</color>
+
+
+    /////PEP
+    <color name="colorAccentPressed">#263238</color>
+
+    <!-- Statusbar overlay -->
+    <color name="statusbar_overlay">#20000000</color>
+
+    <!--Floating action button-->
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="action_color">#43b5df</color>
+    <color name="action_color_pressed">#3e86ce</color>
+    <color name="white_overlay">#bbFFFFFF</color>
+
+    <color name="navigation_bg">#ffffffff</color>
+    <color name="gray_bg">#e2e2e2</color>
+    <color name="list_bg">#eeffffff</color>
+    <color name="holo_blue_dark">#880099CC</color>
+    <color name="holo_blue_light">#8833B5E5</color>
+    <color name="kitkat_gray_dark">#25000000</color>
+    <color name="kitkat_gray_light">#19000000</color>
+    <color name="list_bg_pressed">#88336699</color>
+    <color name="list_bg_selected">#19000000</color>
+    <color name="list_note_title">#cc000000</color>
+    <color name="list_note_dates">#aa000000</color>
+    <color name="about_bg">#dd222222</color>
+    <color name="drawer_text">#bb222222</color>
+    <color name="drawer_text_selected">#dd33B5E5</color>
+    <color name="drawer_line">#ee222222</color>
+    <color name="text_gray">#2d2d2d</color>
+    <color name="location_text">#ee2d2d2d</color>
+    <color name="selected">#8833B5E5</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="audio_attachment_text">#aa000000</color>
+    <color name="text_color">#565656</color>
+    <color name="text_color_lighter">#868686</color>
+
+    <!-- toasts -->
+    <color name="confirm">#009688</color>
+    <color name="warning">#009688</color>
+    <color name="alert">#C0392B</color>
+    <color name="info">#009688</color>
+    <color name="black_overlay">#33000000</color>
+
+    <!--Undo bar-->
+    <color name="card_undobar_material_text_color">#4CAF50</color>
+    <color name="card_undobar_material_background_color">#323232</color>
+
+
+
+    <color name="primary_dark">#263238</color>
+    <color name="highlight">#3777C1</color>
+    <color name="background_main">#263238</color>
+    <color name="dark">#1e2f38</color>
+
+    <color name="icon_inactive">#757575</color>
+    <color name="icon_active">#BDBDBD</color>
+    <color name="separator">#9B99A6</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_highlighted">#3777C1</color>
+    <color name="text_secondary">#9B99A6</color>
+    <color name="text_disabled">#B8B8B8</color>
+
+    <color name="material_drawer_background">@color/background_main</color>
+    <color name="material_drawer_primary_text">@color/material_drawer_dark_primary_icon</color>
+    <color name="material_drawer_primary_icon">@color/material_drawer_dark_primary_text</color>
+    <color name="material_drawer_dark_selected">#202020</color>
+
+
+    <color name="red">#F44336</color>
+    <color name="pink">#E91E63</color>
+    <color name="purple">#9C27B0</color>
+    <color name="deep_purple">#673AB7</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="blue">#2196F3</color>
+    <color name="light_blue">#03A9F4</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="teal">#009688</color>
+    <color name="green">#4CAF50</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="amber">#FF9800</color>
+    <color name="orange">#FF5722</color>
+    <color name="brown">#795548</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="blue_grey">#607D8B</color>
+
+    <array name="categoryColors">
+        <item>@color/red</item>
+        <item>@color/pink</item>
+        <item>@color/purple</item>
+        <item>@color/deep_purple</item>
+        <item>@color/indigo</item>
+        <item>@color/blue</item>
+        <item>@color/light_blue</item>
+        <item>@color/cyan</item>
+        <item>@color/teal</item>
+        <item>@color/green</item>
+        <item>@color/light_green</item>
+        <item>@color/amber</item>
+        <item>@color/orange</item>
+        <item>@color/brown</item>
+        <item>@color/grey</item>
+        <item>@color/blue_grey</item>
+    </array>
+
+    <color name="indicator">#00796b</color>
+    <color name="kerahat">#e51c23</color>
+    <color name="background2">#2b3438</color>
+</resources>

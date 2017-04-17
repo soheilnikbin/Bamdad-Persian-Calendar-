@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <attr name="colorCard" format="reference" />
+    <attr name="colorBackground" format="reference" />
+    <attr name="colorTextPrimary" format="reference" />
+    <attr name="colorIcon" format="reference" />
+    <attr name="colorTextNormal" format="reference" />
+    <attr name="colorTextSecond" format="reference" />
+    <attr name="colorTextHoliday" format="reference" />
+    <attr name="colorHoliday" format="reference" />
+    <attr name="colorTextDrawer" format="reference" />
+    <attr name="colorTextDay" format="reference" />
+    <attr name="colorTextDayName" format="reference" />
+    <attr name="colorMonthSwitch" format="reference" />
+    <attr name="colorTextAthan" format="reference" />
+    <attr name="colorDivider" format="reference" />
+    <attr name="colorCurrentDay" format="reference" />
+    <attr name="colorSelectDay" format="reference" />
+    <attr name="colorDrawerBackground" format="reference" />
+    <attr name="colorDrawerSelect" format="reference" />
+    <attr name="colorDrawerIcon" format="reference" />
+
+    <attr name="circleCurrentDay" format="reference" />
+    <attr name="circleSelect" format="reference" />
+    <attr name="appDivider" format="reference" />
+
+    <!-- Base application theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryDark">@color/dark_primary_dark</item>
+        <item name="colorAccent">@color/dark_accent</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">
+            @color/dark_primary_dark
+        </item>
+        <!-- Customize your theme here. -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+
+        <item name="colorCard">@color/dark_card_background</item>
+        <item name="colorBackground">@color/dark_background</item>
+        <item name="colorTextPrimary">@color/dark_text_primary</item>
+        <item name="colorIcon">@color/dark_icon</item>
+        <item name="colorTextNormal">@color/dark_text_normal</item>
+        <item name="colorTextSecond">@color/dark_text_second</item>
+        <item name="colorTextHoliday">@color/dark_text_holiday</item>
+        <item name="colorHoliday">@color/dark_holiday</item>
+        <item name="colorTextDrawer">@color/dark_text_drawer</item>
+        <item name="colorTextDay">@color/dark_text_day</item>
+        <item name="colorTextDayName">@color/dark_text_day_name</item>
+        <item name="colorTextAthan">@color/dark_text_athan</item>
+        <item name="colorDivider">@color/dark_divider</item>
+        <item name="colorCurrentDay">@color/dark_current_day</item>
+        <item name="colorSelectDay">@color/dark_select_day</item>
+        <item name="colorDrawerBackground">@color/dark_drawer_background</item>
+        <item name="colorDrawerSelect">@color/dark_drawer_select</item>
+        <item name="colorDrawerIcon">@color/dark_icon_drawer</item>
+        <item name="colorMonthSwitch">@color/dark_month_switch</item>
+
+
+        <item name="circleCurrentDay">@drawable/circle_current_day_dark</item>
+        <item name="circleSelect">@drawable/circle_select_dark</item>
+        <item name="appDivider">@drawable/app_divider_dark</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="LightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryDark">@color/dark_primary_dark</item>
+        <item name="colorAccent">@color/dark_accent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">
+            @color/dark_primary_dark
+        </item>
+        <!-- Customize your theme here. -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+
+        <item name="colorCard">@color/dark_card_background</item>
+        <item name="colorBackground">@color/dark_background</item>
+        <item name="colorTextPrimary">@color/dark_text_primary</item>
+        <item name="colorIcon">@color/dark_icon</item>
+        <item name="colorTextNormal">@color/dark_text_normal</item>
+        <item name="colorTextSecond">@color/dark_text_second</item>
+        <item name="colorTextHoliday">@color/dark_text_holiday</item>
+        <item name="colorHoliday">@color/dark_holiday</item>
+        <item name="colorTextDrawer">@color/dark_text_drawer</item>
+        <item name="colorTextDay">@color/dark_text_day</item>
+        <item name="colorTextDayName">@color/dark_text_day_name</item>
+        <item name="colorTextAthan">@color/dark_text_athan</item>
+        <item name="colorDivider">@color/dark_divider</item>
+        <item name="colorCurrentDay">@color/dark_current_day</item>
+        <item name="colorSelectDay">@color/dark_select_day</item>
+        <item name="colorDrawerBackground">@color/dark_drawer_background</item>
+        <item name="colorDrawerSelect">@color/dark_drawer_select</item>
+        <item name="colorDrawerIcon">@color/dark_icon_drawer</item>
+        <item name="colorMonthSwitch">@color/dark_month_switch</item>
+
+        <item name="circleCurrentDay">@drawable/circle_current_day_dark</item>
+        <item name="circleSelect">@drawable/circle_select_dark</item>
+        <item name="appDivider">@drawable/app_divider_dark</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="DarkTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="ShadowTextStyle">
+        <item name="android:paddingLeft">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+
+    <style name="HeaderTitleStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/iron</item>
+        <item name="colorControlNormal">@color/iron</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:textColorHint">@color/iron</item>
+    </style>
+
+    <style name="DarkTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="DarkTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="StartTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:windowTitleSize">?attr/actionBarSize</item>
+        <item name="android:windowTitleStyle">@style/CustomWindowTitle</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:dividerHeight">@dimen/line_separator_height</item>
+        <item name="android:dialogTheme">@style/Dialog</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:dialogTheme">@style/Dialog</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <style name="AppThemeDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeTransparent" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+
+    <style name="Toolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="actionModeStyle">@style/ToolbarActionMode</item>
+    </style>
+
+    <style name="OverFlow" parent="@style/Widget.AppCompat.ActionButton">
+        <item name="android:src">@drawable/ic_more_vert_white_24dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:paddingLeft">7dp</item>
+    </style>
+
+    <style name="Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="ToolbarActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/primary</item>
+    </style>
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="CustomWindowTitle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/CustomWindowTitleText</item>
+    </style>
+
+    <style name="CustomWindowTitleText">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+    <style name="TitleEditText">
+        <item name="colorControlNormal">#d2d2d2</item>
+    </style>
+
+    <style name="CustomFloatingSearchViewTheme" parent="SearchViewAppTheme">
+        <item name="editTextStyle">@style/searchViewEditTextStyle</item>
+        <item name="android:divider">#c9c9c9</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="colorControlNormal">#696969</item>
+    </style>
+
+    <style name="searchViewEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:imeOptions">actionSearch</item>
+    </style>
+
+    <style name="SearchViewAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/serachViewBackground</item>
+        <item name="android:textAppearanceSearchResultTitle">
+            @style/textAppearanceSearchResultTitle
+        </item>
+        <item name="android:textAppearanceSearchResultSubtitle">
+            @style/textAppearanceSearchResultSubTitle
+        </item>
+    </style>
+
+    <style name="textAppearanceSearchResultTitle" parent="TextAppearance.AppCompat.SearchResult.Title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorLink</item>
+    </style>
+
+    <style name="textAppearanceSearchResultSubTitle" parent="TextAppearance.AppCompat.SearchResult.Subtitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+
+    ////PEP
+
+    <style name="OmniNotesTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/colorPrimaryDark</item>
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="OmniNotesTheme.ApiSpec"></style>
+
+    <style name="OmniNotesTheme.ApiSpec.Branded">
+        <item name="android:windowBackground">@drawable/branded_background</item>
+    </style>
+
+    <style name="PreferencesTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="OmniNotesFullscreenTheme" parent="@style/Theme.AppCompat">
+        <item name="actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="background">@color/black_overlay</item>
+    </style>
+
+    <style name="OmniNotesFullscreenTheme.ApiSpec"></style>
+
+    <style name="OmniNotesTheme.NoDisplay">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+
+    <style name="OmniNotesTheme.ApiSpec.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/bg_card</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="Theme.AppCompat.Dialog.NoBackgroundOrDim" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="closeIcon">@drawable/ic_cancel_white_24dp</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.Fullscreen.TitleTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Theme.AppCompat.Dialog.About" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/about_bg</item>
+    </style>
+
+    <style name="Button.Dialog" parent="MD_ActionButton">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@null</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Button.Dialog.Accent" parent="MD_ActionButton">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@null</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Text" parent="android:TextAppearance.Holo.Medium.Inverse">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColorHint">@color/text_color_lighter</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="Text.Big">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Normal">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Text.Small">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="Text.Big.Widget" parent="@style/Text.Big">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Normal.Widget" parent="@style/Text.Normal">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Small.Widget" parent="@style/Text.Small">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="UndoBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">@dimen/undobar_margin_bottom</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/card_undobar_material_background_color</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="UndoBarMessage">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="UndoBarButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:text">@string/undo</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="crouton_text">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    ////money manager
+
+    <style name="Theme.Material.Custom" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="android:actionModeBackground">@color/primary_dark</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <!-- DISABLE MULTITOUCH -->
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+        <!-- CUSTOM CONTROLS -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="android:textViewStyle">@style/Widget.Custom.TextView</item>
+    </style>
+
+    <style name="Widget.Custom.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="DarkToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="DatePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item>
+    </style>
+
+    <style name="DrawerHeaderLabel">
+        <item name="android:textSize">@dimen/text_big</item>
+        <item name="android:paddingBottom">@dimen/spacing_small</item>
+        <item name="android:paddingTop">@dimen/spacing_small</item>
+        <item name="android:paddingLeft">@dimen/spacing_default</item>
+        <item name="android:paddingRight">@dimen/spacing_default</item>
+    </style>
+
+    <style name="CustomEditText" parent="@android:style/Widget.EditText">
+        <item name="met_floatingLabel">highlight</item>
+        <item name="met_textColorHint">@color/text_secondary</item>
+        <item name="met_textColor">#ffffff</item>
+        <item name="met_baseColor">#ffffff</item>
+        <item name="met_primaryColor">@color/accent</item>
+    </style>
+
+    <style name="MyText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#30252525</item>
+    </style>
+
+    <style name="dialog_light" parent="@android:style/Theme.Dialog">
+        <item name="@android:windowBackground">@color/dark_primary</item>
+        <item name="@android:textColor">@color/white</item>
+    </style>
+///prayer
+
+    <style name="AppBaseThemePrayer" parent="Theme.AppCompat.NoActionBar" />
+
+    <style name="PrayerAppTheme" parent="AppBaseThemePrayer">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryDark">@color/dark_primary_dark</item>
+        <item name="colorAccent">@color/dark_accent</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">
+            @color/dark_primary_dark
+        </item>
+        <!-- Customize your theme here. -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+
+        <item name="colorCard">@color/dark_card_background</item>
+        <item name="colorBackground">@color/dark_background</item>
+        <item name="colorTextPrimary">@color/dark_text_primary</item>
+        <item name="colorIcon">@color/dark_icon</item>
+        <item name="colorTextNormal">@color/dark_text_normal</item>
+        <item name="colorTextSecond">@color/dark_text_second</item>
+        <item name="colorTextHoliday">@color/dark_text_holiday</item>
+        <item name="colorHoliday">@color/dark_holiday</item>
+        <item name="colorTextDrawer">@color/dark_text_drawer</item>
+        <item name="colorTextDay">@color/dark_text_day</item>
+        <item name="colorTextDayName">@color/dark_text_day_name</item>
+        <item name="colorTextAthan">@color/dark_text_athan</item>
+        <item name="colorDivider">@color/dark_divider</item>
+        <item name="colorCurrentDay">@color/dark_current_day</item>
+        <item name="colorSelectDay">@color/dark_select_day</item>
+        <item name="colorDrawerBackground">@color/dark_drawer_background</item>
+        <item name="colorDrawerSelect">@color/dark_drawer_select</item>
+        <item name="colorDrawerIcon">@color/dark_icon_drawer</item>
+        <item name="colorMonthSwitch">@color/dark_month_switch</item>
+        <item name="circleCurrentDay">@drawable/circle_current_day_dark</item>
+        <item name="circleSelect">@drawable/circle_select_dark</item>
+        <item name="appDivider">@drawable/app_divider_dark</item>
+
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="actionDropDownStyle">@style/ToolbarTheme.DropDown</item>
+    </style>
+
+    <style name="ToolbarTheme.DropDown" parent="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:popupBackground">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ToolbarTheme.Popup" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/overflow_menu</item>
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/dark_icon_drawer</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

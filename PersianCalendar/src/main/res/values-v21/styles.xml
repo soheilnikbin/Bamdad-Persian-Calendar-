@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="AppThemeTransparent" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    ////PEP
+
+    <style name="OmniNotesTheme.ApiSpec">
+        <item name="android:statusBarColor">@color/statusbar_overlay</item>
+        <item name="android:windowTranslucentNavigation">@bool/transparent_nav</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+
+    <style name="OmniNotesFullscreenTheme.ApiSpec">
+        <item name="android:statusBarColor">@color/statusbar_overlay</item>
+        <item name="android:windowTranslucentNavigation">@bool/transparent_nav</item>
+    </style>
+</resources>

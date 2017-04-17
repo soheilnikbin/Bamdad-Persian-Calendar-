@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2015 Federico Iosue (federico.iosue@gmail.com)
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:fitsSystemWindows="true">
+
+    <PreferenceCategory android:title="@string/settings_category_preferences">
+
+        <PreferenceScreen
+                android:key="settings_data_pep"
+                android:title="@string/settings_screen_data"/>
+
+        <PreferenceScreen
+                android:key="settings_interface_pep"
+                android:title="@string/settings_screen_interface"/>
+
+        <PreferenceScreen
+                android:key="settings_navigation_pep"
+                android:title="@string/settings_screen_navigation"/>
+
+        <PreferenceScreen
+                android:key="settings_behaviors_pep"
+                android:title="@string/settings_screen_behaviors"/>
+
+        <PreferenceScreen
+                android:key="settings_notifications_pep"
+                android:title="@string/settings_screen_notifications"/>
+
+    </PreferenceCategory>
+
+
+
+
+
+
+</PreferenceScreen>

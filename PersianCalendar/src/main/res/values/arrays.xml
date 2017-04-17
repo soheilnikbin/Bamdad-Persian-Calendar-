@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themeNames">
+        <item>روشن</item>
+        <item>تاریک</item>
+    </string-array>
+
+
+    <string-array name="themeKeys" translatable="false">
+        <item>LightTheme</item>
+        <item>DarkTheme</item>
+    </string-array>
+
+    <string-array name="prayMethodsNames">
+        <item>شیعهٔ دوازده امامی، انجمن لوا، قم</item>
+        <item>اتّحادیهٔ جهانی اسلام، عربستان سعودی</item>
+        <item>جامعهٔ اسلامی آمریکای شمالی</item>
+        <item>مرجع عمومی تحقیقات مصر</item>
+        <item>دانشگاه امّ‌القری، مکه</item>
+        <item>دانشگاه علوم اسلامی، کراچی</item>
+        <item>انجمن ژئوفیزیک، دانشگاه تهران</item>
+    </string-array>
+
+    <string-array name="prayMethodsKeys" translatable="false">
+        <item>Jafari</item>
+        <item>MWL</item>
+        <item>ISNA</item>
+        <item>Egypt</item>
+        <item>Makkah</item>
+        <item>Karachi</item>
+        <item>Tehran</item>
+    </string-array>
+
+    <string-array name="colorNames">
+        <item>سپید</item>
+        <item>سرخ</item>
+        <item>سبز</item>
+        <item>سیاه</item>
+    </string-array>
+
+    <string-array name="colorKeys" translatable="false">
+        <item>#ffffffff</item>
+        <item>#ffe65100</item>
+        <item>#ff00796b</item>
+        <item>#ff202020</item>
+    </string-array>
+
+    <string-array name="languageNames" translatable="false">
+        <item>فارسی</item>
+        <item>دری</item>
+        <item>پښتو</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="languageKeys" translatable="false">
+        <item>fa</item>
+        <item>fa-AF</item>
+        <item>ps</item>
+        <item>en</item>
+    </string-array>
+
+    <string-array name="prayerTimeNames">
+        <item>صبح</item>
+        <item>ظهر</item>
+        <item>عصر</item>
+        <item>مغرب</item>
+        <item>عشاء</item>
+    </string-array>
+
+
+    <string-array name="prayerTimeKeys" translatable="false">
+        <item>FAJR</item>
+        <item>DHUHR</item>
+        <item>ASR</item>
+        <item>MAGHRIB</item>
+        <item>ISHA</item>
+    </string-array>
+
+    <string-array name="islamicOffsetNames">
+        <item>-۲</item>
+        <item>-۱</item>
+        <item>۰</item>
+        <item>+۱</item>
+        <item>+۲</item>
+    </string-array>
+
+
+    <string-array name="islamicOffsetKeys" translatable="false">
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>+1</item>
+        <item>+2</item>
+    </string-array>
+
+    <string-array name="moazenList">
+        <item>اذان کوتاه</item>
+        <item>مرحوم موذن زاده</item>
+        <item>مرحوم آقاتی</item>
+    </string-array>
+
+
+    <string-array name="moazenListKeys" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="drawerTitles">
+        <item>تقویم</item>
+        <item>یادآور و ثبت رویداد</item>
+        <item>یادداشت</item>
+        <item>مدیریت هزینه</item>
+        <item>تبدیل تاریخ</item>
+        <item>نمازگزار</item>
+        <item>تنظیمات</item>
+        <item>خروج</item>
+    </string-array>
+
+    <string-array name="drawerTitles_recurrence">
+        <item>تقویم</item>
+        <item>یادآور و ثبت رویداد</item>
+        <item>یادداشت</item>
+        <item>مدیریت هزینه</item>
+        <item>تنظیمات</item>
+        <item>خروج</item>
+    </string-array>
+
+    <string-array name="drawerTitles_pep_menu">
+        <item>تقویم</item>
+        <item>یادآور و ثبت رویداد</item>
+        <item>یادداشت</item>
+        <item>مدیریت هزینه</item>
+    </string-array>
+
+    <string-array name="drawerIcons" translatable="false">
+        <item>@drawable/ic_date_range</item>
+        <item>@drawable/ic_roydad</item>
+        <item>@drawable/ic_note</item>
+        <item>@drawable/ic_wallet</item>
+        <item>@drawable/ic_swap_vertical_circle</item>
+        <item>@mipmap/ic_menu_tesbihat</item>
+        <item>@drawable/ic_settings</item>
+        <item>@drawable/ic_cancel_white_24dp</item>
+    </string-array>
+
+    <string-array name="drawerIcons_recurrence" translatable="false">
+        <item>@drawable/ic_date_range</item>
+        <item>@drawable/ic_roydad</item>
+        <item>@drawable/ic_note</item>
+        <item>@drawable/ic_wallet</item>
+        <item>@drawable/ic_settings</item>
+        <item>@drawable/ic_cancel_white_24dp</item>
+    </string-array>
+
+    <string-array name="drawerIcons_pep_menu" translatable="false">
+        <item>@drawable/ic_date_range</item>
+        <item>@drawable/ic_roydad</item>
+        <item>@drawable/ic_note</item>
+        <item>@drawable/ic_wallet</item>
+    </string-array>
+
+    <string-array name="drawerSubtitles">
+        <item></item>
+        <item></item>
+        <item>عکس، ویدیو، صدا، نوشته، فایل و ...</item>
+        <item></item>
+        <item></item>
+        <item>اذان ، قبله نما، قطب نما و ...</item>
+        <item>تنظیمات تقویم</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="drawerSubtitles_recurrence">
+        <item></item>
+        <item></item>
+        <item>عکس، ویدیو، صدا، نوشته، فایل و ...</item>
+        <item></item>
+        <item>تنظیمات یادآور</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="drawerSubtitles_pep_menu">
+        <item></item>
+        <item></item>
+        <item>عکس، ویدیو، صدا، نوشته، فایل و ...</item>
+        <item></item>
+    </string-array>
+    /////PEP
+    <string-array name="navigation_list">
+        <item>یادداشت ها</item>
+        <item>بایگانی ها</item>
+        <item>یادآوری ها</item>
+        <item>سطل زباله</item>
+        <item>دسته بندی نشده</item>
+    </string-array>
+
+    <string-array name="navigation_list_codes">
+        <item>Notes</item>
+        <item>Archive</item>
+        <item>Reminders</item>
+        <item>Trash</item>
+        <item>Uncategorized</item>
+    </string-array>
+
+    <integer-array name="navigation_list_icons">
+        <item>@drawable/ic_file_document_grey600_48dp</item>
+        <item>@drawable/ic_archive_grey600_48dp</item>
+        <item>@drawable/ic_alarm_grey600_48dp</item>
+        <item>@drawable/ic_delete_grey600_48dp</item>
+        <item>@drawable/ic_folder_open_grey600_48dp</item>
+    </integer-array>
+
+    <integer-array name="navigation_list_icons_selected">
+        <item>@drawable/ic_file_document_black_48dp</item>
+        <item>@drawable/ic_archive_black_48dp</item>
+        <item>@drawable/ic_alarm_black_48dp</item>
+        <item>@drawable/ic_delete_black_48dp</item>
+        <item>@drawable/ic_folder_open_black_48dp</item>
+    </integer-array>
+
+    <string-array name="sortable_columns">
+        <item>title</item>
+        <item>creation</item>
+        <item>last_modification</item>
+        <item>alarm</item>
+    </string-array>
+
+    <string-array name="sortable_columns_human_readable">
+        <item>عنوان</item>
+        <item>تاریخ ایجاد</item>
+        <item>آخرین تاریخ اصلاح</item>
+        <item>تاریخ یادآوری</item>
+    </string-array>
+
+    <string-array name="checked_items_behavior">
+        <item>موقعیت خود را حفظ کند</item>
+        <item>به آخر لیست منتقل شود</item>
+        <item>به آخر ایتم های چک نشده منتقل شود</item>
+    </string-array>
+
+    <string-array name="checked_items_behavior_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="colors_app">
+        <item>Disabled</item>
+        <item>Strip only</item>
+        <item>Notes list only</item>
+        <item>Complete</item>
+    </string-array>
+
+    <string-array name="colors_app_values">
+        <item>disabled</item>
+        <item>strip</item>
+        <item>list</item>
+        <item>complete</item>
+    </string-array>
+
+    <string-array name="colors_widget">
+        <item>Disabled</item>
+        <item>Strip only</item>
+        <item>Notes list</item>
+    </string-array>
+
+    <string-array name="colors_widget_values">
+        <item>disabled</item>
+        <item>strip</item>
+        <item>list</item>
+    </string-array>
+
+    <string-array name="text_size">
+        <item>کوچکترین</item>
+        <item>کوچک</item>
+        <item>به طور پیش فرض</item>
+        <item>بزرگ</item>
+        <item>بزرگترین</item>
+    </string-array>
+
+    <string-array name="text_size_values">
+        <item>smallest</item>
+        <item>small</item>
+        <item>default</item>
+        <item>large</item>
+        <item>largest</item>
+    </string-array>
+
+    <integer-array name="text_size_offset">
+        <item>-3</item>
+        <item>-2</item>
+        <item>0</item>
+        <item>3</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="languages">
+        <item>العربية (Arabic)</item>
+        <item>Asturianu (Asturian)</item>
+        <item>Català (Catalan)</item>
+        <item>中文 (Chinese)</item>
+        <item>Hrvatski (Croatian)</item>
+        <item>Čeština (Czech)</item>
+        <item>Nederlands (Dutch)</item>
+        <item>English (English)</item>
+        <item>Français (French)</item>
+        <item>ភាសាខ្មែរ (Khmer)</item>
+        <item>Deutsch (German)</item>
+        <item>Galego (Galician)</item>
+        <item>ελληνικά (Greek)</item>
+        <item>עברית (Hebrew)</item>
+        <item>हिंदी (Hindi)</item>
+        <item>Magyar (Hungarian)</item>
+        <item>Bahasa Indonesia (Indonesian)</item>
+        <item>Italiano (Italian)</item>
+        <item>日本語 (Japanese)</item>
+        <item>ສ​ປ​ປ​ລາວ (Lao)</item>
+        <item>Polszczyzna (Polish)</item>
+        <item>Português (Portuguese Brazil)</item>
+        <item>Português (Portuguese Portugal)</item>
+        <item>Русский (Russian)</item>
+        <item>Slovenčina (Slovak)</item>
+        <item>Slovenščina (Slovenian)</item>
+        <item>Español (Spanish)</item>
+        <item>Kinesiska (Swedish)</item>
+        <item>臺灣話 (Taiwanese)</item>
+        <item>Türkçe (Turkish)</item>
+        <item>Українська (Ukrainian)</item>
+    </string-array>
+
+    <string-array name="languages_codes">
+        <item>ar_SA</item>
+        <item>es_XA</item>
+        <item>ca_ES</item>
+        <item>zh_CN</item>
+        <item>hr_HR</item>
+        <item>cs_CZ</item>
+        <item>nl_NL</item>
+        <item>en_US</item>
+        <item>fr_FR</item>
+        <item>km_KH</item>
+        <item>de_DE</item>
+        <item>gl_ES</item>
+        <item>el_GR</item>
+        <item>iw_IL</item>
+        <item>hi_IN</item>
+        <item>hu_HU</item>
+        <item>in_ID</item>
+        <item>it_IT</item>
+        <item>ja_JP</item>
+        <item>lo_LA</item>
+        <item>pl_PL</item>
+        <item>pt_BR</item>
+        <item>pt_PT</item>
+        <item>ru_RU</item>
+        <item>sk_SK</item>
+        <item>sl_SL</item>
+        <item>es_ES</item>
+        <item>sv_SE</item>
+        <item>zh_TW</item>
+        <item>tr_TR</item>
+        <item>uk_UA</item>
+    </string-array>
+
+
+    <string-array name="vakit_indicator">
+        <item>@string/vakit_indicator_current</item>
+        <item>@string/vakit_indicator_next</item>
+    </string-array>
+    <string-array name="vakit_indicator_values">
+        <item>current</item>
+        <item>next</item>
+    </string-array>
+
+
+    <string-array name="numbers">
+        <item>0123456789</item>
+        <item>٠١٢٣٤٥٦٧٨٩</item>
+        <item>۰۱۲۳۴۵۶۷۸۹</item>
+    </string-array>
+
+    <string-array name="numbers_keys">
+        <item>normal</item>
+        <item>arabic</item>
+        <item>farsi</item>
+    </string-array>
+
+
+    <string-array name="soundPicker">
+        <item>@string/filePicker</item>
+        <item>@string/soundPicker</item>
+    </string-array>
+
+
+    <string-array name="widget_countdown">
+        <item>01:23:45 => 01:23</item>
+        <item>01:23:45 => 01:24</item>
+    </string-array>
+
+
+    <string-array name="widget_countdown_">
+        <item>default</item>
+        <item>alt</item>
+    </string-array>
+
+
+    <string-array name="hijri_fix_days">
+        <item>+4</item>
+        <item>+3</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+        <item>-4</item>
+    </string-array>
+
+    <string-array name="lefttext_part">
+        <item>@string/fajr</item>
+        <item>@string/sun</item>
+        <item>@string/zuhr</item>
+        <item>@string/asr</item>
+        <item>@string/maghrib</item>
+        <item>@string/ishaa</item>
+        <item>@string/fajr</item>
+    </string-array>
+    <string-array name="ezan_volume">
+        <item>@string/volumeRingtone</item>
+        <item>@string/volumeAlarm</item>
+        <item>@string/volumeMedia</item>
+    </string-array>
+    <string-array name="ezan_volume_val">
+        <item>noti</item>
+        <item>alarm</item>
+        <item>media</item>
+    </string-array>
+    <string-array name="silenterType">
+        <item>@string/useSilenter</item>
+        <item>@string/useVibration</item>
+    </string-array>
+    <string-array name="silenterType_val">
+        <item>silent</item>
+        <item>vibrate</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>@string/daySu</item>
+        <item>@string/dayMo</item>
+        <item>@string/dayTu</item>
+        <item>@string/dayWe</item>
+        <item>@string/dayTh</item>
+        <item>@string/dayFr</item>
+        <item>@string/daySa</item>
+    </string-array>
+    <string-array name="week_days_short">
+        <item>@string/dayShortSu</item>
+        <item>@string/dayShortMo</item>
+        <item>@string/dayShortTu</item>
+        <item>@string/dayShortWe</item>
+        <item>@string/dayShortTh</item>
+        <item>@string/dayShortFr</item>
+        <item>@string/dayShortSa</item>
+    </string-array>
+    <string-array name="months">
+        <item>@string/gmonth1</item>
+        <item>@string/gmonth2</item>
+        <item>@string/gmonth3</item>
+        <item>@string/gmonth4</item>
+        <item>@string/gmonth5</item>
+        <item>@string/gmonth6</item>
+        <item>@string/gmonth7</item>
+        <item>@string/gmonth8</item>
+        <item>@string/gmonth9</item>
+        <item>@string/gmonth10</item>
+        <item>@string/gmonth11</item>
+        <item>@string/gmonth12</item>
+    </string-array>
+    <string-array name="months_hicri">
+        <item>@string/hmonth1</item>
+        <item>@string/hmonth2</item>
+        <item>@string/hmonth3</item>
+        <item>@string/hmonth4</item>
+        <item>@string/hmonth5</item>
+        <item>@string/hmonth6</item>
+        <item>@string/hmonth7</item>
+        <item>@string/hmonth8</item>
+        <item>@string/hmonth9</item>
+        <item>@string/hmonth10</item>
+        <item>@string/hmonth11</item>
+        <item>@string/hmonth12</item>
+    </string-array>
+    <string-array name="dropdown">
+        <item>@string/appName</item>
+        <item>@string/compass</item>
+        <item>@string/names</item>
+        <item>@string/calendar</item>
+        <item>@string/tesbihat</item>
+        <item>@string/hadith</item>
+        <item>@string/missedPrayers</item>
+        <item>@string/dhikr</item>
+        <item>@string/settings</item>
+        <item>@string/about</item>
+    </string-array>
+    <string-array name="holydays">
+        <item>@string/holyday1</item>
+        <item>@string/holyday2</item>
+        <item>@string/holyday3</item>
+        <item>@string/holyday4</item>
+        <item>@string/holyday5</item>
+        <item>@string/holyday6</item>
+        <item>@string/holyday7</item>
+        <item>@string/holyday8</item>
+        <item>@string/holyday9</item>
+        <item>@string/holyday10</item>
+        <item>@string/holyday11</item>
+        <item>@string/holyday12</item>
+        <item>@string/holyday13</item>
+        <item>@string/holyday14</item>
+        <item>@string/holyday15</item>
+        <item>@string/holyday16</item>
+        <item>@string/holyday17</item>
+        <item>@string/holyday18</item>
+    </string-array>
+    <string-array name="df">
+        <item>DD MMM YYYY</item>
+        <item>DD MMM YY</item>
+        <item>DD.MM.YYYY</item>
+        <item>DD.MM.YY</item>
+        <item>DD/MM/YYYY</item>
+        <item>DD/MM/YY</item>
+        <item>DD MM YYYY</item>
+        <item>DD MM YY</item>
+        <item>DD MMM</item>
+        <item>DD.MM</item>
+        <item>DD/MM</item>
+        <item>DD MM</item>
+    </string-array>
+    <string-array name="greg_text">
+        <item>@string/dateFormat1</item>
+        <item>@string/dateFormat2</item>
+        <item>31.12.2013</item>
+        <item>31.12.13</item>
+        <item>31/12/2013</item>
+        <item>31/12/13</item>
+        <item>31 12 2013</item>
+        <item>31 12 13</item>
+        <item>@string/dateFormat3</item>
+        <item>31.12</item>
+        <item>31/12</item>
+        <item>31 12</item>
+    </string-array>
+    <string-array name="hicri_text">
+        <item>@string/hDateFormat1</item>
+        <item>@string/hDateFormat2</item>
+        <item>30.01.1434</item>
+        <item>30.01.34</item>
+        <item>30/01/1434</item>
+        <item>30/01/34</item>
+        <item>30 01 1434</item>
+        <item>30 01 34</item>
+        <item>@string/hDateFormat3</item>
+        <item>30.01</item>
+        <item>30/01</item>
+        <item>30 01</item>
+    </string-array>
+
+
+    <string-array name="adjMethod">
+        <item>@string/adjAngle</item>
+        <item>@string/adjTime</item>
+        <item>@string/adjMidnight</item>
+    </string-array>
+
+    <string-array name="juristicMethod">
+        <item>@string/juristicShafi</item>
+        <item>@string/juristicHanafi</item>
+    </string-array>
+
+</resources>

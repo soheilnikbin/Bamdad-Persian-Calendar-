@@ -1,0 +1,226 @@
+<!--
+  ~ Copyright (c) 2016 Metin Kale
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp">
+
+        <TextView
+                android:textSize="14sp"
+                android:textColor="#ff000000"
+                android:layout_weight="1"
+                android:id="@+id/city"
+                android:text="Braunschweig"
+            android:gravity="left"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:textSize="14sp"
+                android:textColor="#ff000000"
+                android:id="@+id/time"
+                android:text="00:00"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimary"
+        android:layout_margin="3dp"></RelativeLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:textSize="14sp"
+                    android:textColor="#ff000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/time0"
+                    android:gravity="center"
+                    android:text="00:00"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:textSize="12sp"
+                    android:textColor="#ff000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="@string/fajr"
+                    android:id="@+id/imsak"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:textSize="14sp"
+                    android:textColor="#ff000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/time1"
+                    android:gravity="center"
+                    android:text="00:00"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:textSize="12sp"
+                    android:textColor="#ff000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="@string/sun"
+                    android:id="@+id/gunes"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:textSize="14sp"
+                    android:textColor="#ff000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/time2"
+                    android:gravity="center"
+                    android:text="00:00"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:textSize="12sp"
+                    android:textColor="#ff000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="@string/zuhr"
+                    android:id="@+id/ogle"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:textSize="14sp"
+                    android:textColor="#ff000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/time3"
+                    android:gravity="center"
+                    android:text="00:00"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:textSize="12sp"
+                    android:textColor="#ff000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="@string/asr"
+                    android:id="@+id/ikindi"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:textSize="14sp"
+                    android:textColor="#ff000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/time4"
+                    android:gravity="center"
+                    android:text="00:00"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:textSize="12sp"
+                    android:textColor="#ff000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="@string/maghrib"
+                    android:id="@+id/aksam"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:textSize="14sp"
+                    android:textColor="#ff000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/time5"
+                    android:gravity="center"
+                    android:text="00:00"
+                    android:layout_weight="1"/>
+
+            <TextView
+                    android:textSize="12sp"
+                    android:textColor="#ff000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="@string/ishaa"
+                    android:id="@+id/yatsi"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

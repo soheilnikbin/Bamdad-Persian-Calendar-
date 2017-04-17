@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="view_padding">16dp</dimen>
+    <dimen name="converter_padding">8dp</dimen>
+    <dimen name="divider_margin">5dp</dimen>
+    <dimen name="divider_margin2">44dp</dimen>
+    <dimen name="icon_margin">16dp</dimen>
+    <dimen name="icon_size">28dp</dimen>
+    <dimen name="padding_item">8dp</dimen>
+    <dimen name="status_padding_top">23dp</dimen>
+    <dimen name="drawer_width">280dp</dimen>
+    <dimen name="drawer_header_height">190dp</dimen>
+    <dimen name="drawer_item_height">48sp</dimen>
+
+    <dimen name="grid_calendar_height">290sp</dimen>
+    <dimen name="grid_calendar_padding">20sp</dimen>
+    <dimen name="grid_calendar_padding_bottom">4sp</dimen>
+
+    <dimen name="item_calendar_margin_top">4dp</dimen>
+
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="text_size_description">14sp</dimen>
+    <dimen name="text_size_note">14sp</dimen>
+    <dimen name="text_size_drawer_subtitle">10sp</dimen>
+    <dimen name="text_size_drawer">16sp</dimen>
+    <dimen name="icon_text_size">26sp</dimen>
+
+    <dimen name="day_item_size">40sp</dimen>
+    <dimen name="day_item_select_size">38sp</dimen>
+    <dimen name="day_item_event_size">2sp</dimen>
+
+    <!-- analogous to compat's listPreferredItemPaddingLeft/Right but much less for our need -->
+    <dimen name="listPreferredItemPadding">8dip</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="title_padding_right">16dp</dimen>
+    <dimen name="title_padding_left">58dp</dimen>
+    <dimen name="list_padding">0dp</dimen>
+    <dimen name="tabs_padding">8dp</dimen>
+    <dimen name="card_view_margin">5dp</dimen>
+    <dimen name="view_header_padding_bottom">0dp</dimen>
+    <dimen name="create_scroll_view_padding">0dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="toolbar_shadow_height">10dp</dimen>
+    <dimen name="toolbar_shadow_adjust">-10dp</dimen>
+    <dimen name="table_row_default_horizontal_padding">20dp</dimen>
+    <dimen name="table_row_default_padding_side">16dp</dimen>
+    <dimen name="line_separator_height">0.5dp</dimen>
+    <dimen name="line_separator_margin_side_large">64dp</dimen>
+    <dimen name="line_separator_margin_side">8dp</dimen>
+    <dimen name="image_margin_side">16dp</dimen>
+    <dimen name="view_image_margin_side">26dp</dimen>
+    <dimen name="text_margin_side">22dp</dimen>
+    <dimen name="fab_recycler_view_padding">88dp</dimen>
+    <dimen name="table_row_about_padding">18dp</dimen>
+    <dimen name="text_about_margin_side">22dp</dimen>
+    <dimen name="text_view_margin_side">20dp</dimen>
+    <dimen name="table_row_view_padding">15dp</dimen>
+    <dimen name="text_dialog_padding_side">16dp</dimen>
+    <dimen name="dialog_padding_side">24dp</dimen>
+    <dimen name="item_offset">5dp</dimen>
+    <dimen name="toolbar_placeholder_height">56dp</dimen>
+
+
+    <dimen name="activity_additional_margin">0dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="vertical_margin">16dp</dimen>
+
+    <dimen name="padding_half">8dp</dimen>
+
+    <dimen name="actionbar_icon_padding">8dp</dimen>
+
+    <dimen name="icon_text_margin">12dp</dimen>
+
+    <dimen name="navigation_drawer_width">264dp</dimen>
+    <dimen name="navigation_drawer_line_height">48dp</dimen>
+    <dimen name="navigation_drawer_icon_size">28dp</dimen>
+    <dimen name="navigation_drawer_header_height">90dp</dimen>
+    <dimen name="navigation_drawer_reserved_space">0dp</dimen>
+
+    <dimen name="tag_circle_padding">25dp</dimen>
+
+    <dimen name="padding_top_kitkat">0dp</dimen>
+    <dimen name="padding_bottom_kitkat">0dp</dimen>
+
+    <dimen name="widget_height">56dp</dimen>
+
+    <dimen name="undobar_margin_bottom">20dp</dimen>
+
+    <!-- Notes layout in list -->
+    <dimen name="note_item_min_height">102dp</dimen>
+    <dimen name="note_item_min_height_inner">100dp</dimen>
+
+    <!-- Attachment dialog -->
+    <dimen name="attachment_dialog_text_size">16sp</dimen>
+    <dimen name="attachment_dialog_drawable_padding">10dp</dimen>
+    <dimen name="attachment_dialog_items_padding">10dp</dimen>
+
+    <!-- FAB -->
+    <dimen name="fab_right_margin">8dp</dimen>
+
+    <!-- Introduction -->
+    <dimen name="intro_top_padding">32dp</dimen>
+    <dimen name="intro_bottom_padding">24dp</dimen>
+    <dimen name="intro_side_padding">64dp</dimen>
+
+    <dimen name="spacing_default">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_tiny">2dp</dimen>
+    <dimen name="spacing_very_small">4dp</dimen>
+    <dimen name="spacing_big">24dp</dimen>
+    <dimen name="spacing_very_big">32dp</dimen>
+    <dimen name="report_category_icon">32dp</dimen>
+    <dimen name="expense_category_icon">18dp</dimen>
+    <dimen name="default_height">48dp</dimen>
+    <dimen name="icon_no_results">128dp</dimen>
+
+
+    <dimen name="text_very_big">20sp</dimen>
+    <dimen name="text_big">16sp</dimen>
+    <dimen name="text_primary">14sp</dimen>
+    <dimen name="text_secondary">12sp</dimen>
+    <dimen name="text_amount">48sp</dimen>
+    <dimen name="text_number">40sp</dimen>
+    <dimen name="text_expense_amount">32sp</dimen>
+    <dimen name="category_icon">48dp</dimen>
+    <dimen name="toolbar_icon_size">24dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="search_hight">50dp</dimen>
+
+    <dimen name="dimen4dp">4dp</dimen>
+
+    <dimen name="app_defaultsize_w">632.0dip</dimen>
+
+    <dimen name="app_defaultsize_h">598.0dip</dimen>
+
+    <dimen name="app_minimumsize_w">632.0dip</dimen>
+
+    <dimen name="app_minimumsize_h">598.0dip</dimen>
+</resources>

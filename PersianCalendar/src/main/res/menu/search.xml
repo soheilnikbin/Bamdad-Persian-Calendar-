@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu.clear" android:title="شهر موردنظر را وارد کنید" android:icon="@drawable/ic_close_search_view" app:showAsAction="always"/>
+    <item android:id="@+id/centigrade" android:title="سانتیگراد" app:showAsAction="never"/>
+    <item  android:id="@+id/fahrenheit" android:title="فارنهایت" app:showAsAction="never"/>
+
+</menu>

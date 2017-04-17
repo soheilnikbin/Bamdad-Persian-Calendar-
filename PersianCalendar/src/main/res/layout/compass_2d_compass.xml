@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/compass_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:id="@+id/main_image_dial"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="compass_dial"
+            />
+
+        <ImageView
+            android:id="@+id/main_image_hands"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="compass_hands"
+            android:scaleType="fitXY"
+            android:src="@drawable/compass_view" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/infobox"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#20292f">
+
+        <View
+                android:id="@+id/center"
+                android:layout_width="0dip"
+                android:layout_alignParentBottom="true"
+                android:layout_height="0dip"
+                android:layout_centerHorizontal="true"/>
+
+        <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_above="@+id/hline"
+                android:layout_marginTop="10dip"
+                android:layout_toLeftOf="@+id/center"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:text="درجه قبله"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#f6f6f6"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/angle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="0°"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dip"
+                android:layout_toLeftOf="@id/center"
+                android:gravity="left"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#f6f6f6"/>
+
+        <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/hline"
+                android:layout_marginTop="10dip"
+                android:layout_toRightOf="@id/center"
+                android:gravity="right"
+                android:text="فاصله تا کعبه"
+                android:layout_marginRight="15dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#f6f6f6"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dip"
+                android:layout_toRightOf="@id/center"
+                android:text="0 km"
+                android:gravity="right"
+                android:layout_marginRight="15dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#f6f6f6"/>
+
+
+        <View
+
+                android:id="@+id/hline"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="5dip"
+                android:layout_marginEnd="5dip"
+                android:layout_marginTop="5dip"
+                android:background="#d3d3d3"
+                android:layout_above="@+id/angle"/>
+
+    </RelativeLayout>
+
+    <com.compass.compass._2D.CompassView
+        android:id="@+id/compass"
+        android:translationZ="2dp"
+        android:layout_width="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="120dp"
+        android:layout_above="@+id/infobox"
+        android:layout_marginBottom="-65dp" />
+
+</RelativeLayout>
