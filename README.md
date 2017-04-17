@@ -2,8 +2,11 @@ Bamdad Life Manager Android App [![Build Status](https://travis-ci.org/ebraminio
 =============================
 <div lang="fa" dir="rtl">Bamdad Life Manager Android App ( برنامه اندروید مدیریت زندگی‌ )<br /></div>
 
+## بامداد
 
-Screenshots:
+بامداد یک برنامه ریز شخصی‌ است که این امکان را به شما میدهد که یادداشت‌های خود را مدیریت کنید و هرگونه فایلی را داخل آن ثبت کنید، هرگونه یادآور به آن اضافه کنید، هزینه‌های روزانه خود را مدیریت کنید، از آب و هوای روز باخبر شوید و نگران یادآور نماز نباشید. در یک کلام با بامداد زندگی‌ خود را مدیریت کنید.
+
+## Screenshots:
 
 <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic1.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic2.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic3.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic4.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic5.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic6.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic7.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic8.jpg" width="200">
 
