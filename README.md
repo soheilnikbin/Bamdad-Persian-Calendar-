@@ -26,6 +26,15 @@ This project contain Google Firebase System after run it in Android Studio, go t
 
 You Are Ready to go ;)
 
+## Open Source Libraries:
+
+<ul>
+    <li> <a href="https://github.com/mohamad-amin/PersianMaterialDateTimePicker" >Persian Material DateTimePicker</a> </li>
+    <li> <a href="https://github.com/ebraminio/DroidPersianCalendar" >Persian Calendar</a> </li>
+    <li> <a href="https://github.com/federicoiosue/Omni-Notes" >Omni Notes</a> </li>
+    <li> <a href="https://github.com/metinkale38/prayer-times-android" >Prayer Time</a> </li>
+</ul>
+
 License
 -----------------------------
 Copyright (C) 2012-2017  soheil.nikbin@gmail.com
