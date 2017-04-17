@@ -2,15 +2,10 @@ Bamdad Life Manager Android App [![Build Status](https://travis-ci.org/ebraminio
 =============================
 <div lang="fa" dir="rtl">Bamdad Life Manager Android App ( برنامه اندروید مدیریت زندگی‌ )<br /></div>
 
-<img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic1.jpg" width="281">
-<img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic2.jpg" width="281">
-<img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic3.jpg" width="281">
-<img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic4.jpg" width="281">
-<img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic5.jpg" width="281">
-<img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic6.jpg" width="281">
-<img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic7.jpg" width="281">
-<img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic8.jpg" width="281">
 
+Screenshots:
+
+<img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic1.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic2.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic3.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic4.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic5.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic6.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic7.jpg" width="200"> <img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/pic8.jpg" width="200">
 
 
 Download
