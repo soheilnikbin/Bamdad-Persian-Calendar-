@@ -2,6 +2,7 @@ Bamdad is an open source application over hundred thousand Active user around th
 =============================
 <div lang="fa" dir="rtl">Bamdad Life Manager Android App ( برنامه اندروید مدیریت زندگی‌ )<br /></div>
 
+<img src="https://raw.githubusercontent.com/soheilnikbin/Bamdad-Persian-Calendar-/master/pics/world.jpg" width="600"> 
 ## Bamdad - بامداد
 
 بامداد یک برنامه ریز شخصی‌ است که این امکان را به شما میدهد که یادداشت‌های خود را مدیریت کنید و هرگونه فایلی را داخل آن ثبت کنید، هرگونه یادآور به آن اضافه کنید، هزینه‌های روزانه خود را مدیریت کنید، از آب و هوای روز باخبر شوید و نگران یادآور نماز نباشید. در یک کلام با بامداد زندگی‌ خود را مدیریت کنید.
